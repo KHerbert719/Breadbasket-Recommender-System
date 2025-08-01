@@ -7,20 +7,18 @@ and generate a **recommender system**.
 The output of the model is saved as a CSV file: `association_rules_OUTPUT.csv`
 
 # Dataset Overview
-
-- ***Files Included:**
-- `BreadBasket_DMS.csv`
-- 'BreadBasket_Association_Rules.ipynb'
-- '
-
-  
-- **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/heeraldedhia/breadbasket)
-- **Description:** Transactions from a UK-based bakery from 2016–2017.
 - **Key Columns:**
   - `Date`: Date of purchase
   - `Time`: Time of purchase
   - `Transaction`: Transaction ID
   - `Item`: Item purchased
+  - 
+# Files Included:
+- `BreadBasket_DMS.csv`
+- 'BreadBasket_Association_Rules.ipynb'
+- 'Association-Rules'
+- 'README.md'
+- 'association_rules_OUTPUT.csv'
 
 # Objective
 
@@ -29,3 +27,6 @@ bought together. This can help:
 - Design promotions
 - Improve product placement
 - Build a simple recommender system
+  
+# Source: [Kaggle Dataset](https://www.kaggle.com/datasets/heeraldedhia/breadbasket)
+- **Description:** Transactions from a UK-based bakery from 2016–2017.
