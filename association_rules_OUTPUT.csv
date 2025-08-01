@@ -1,0 +1,968 @@
+Rule_ID,antecedents,consequents,support,confidence,lift,RuleText
+1,Alfajores,Bread,0.01,0.285,0.871,Rule 1: Alfajores -> Bread
+2,Bread,Alfajores,0.01,0.032,0.871,Rule 2: Bread -> Alfajores
+3,Alfajores,Brownie,0.003,0.078,1.96,Rule 3: Alfajores -> Brownie
+4,Brownie,Alfajores,0.003,0.071,1.96,Rule 4: Brownie -> Alfajores
+5,Alfajores,Cake,0.004,0.113,1.092,Rule 5: Alfajores -> Cake
+6,Cake,Alfajores,0.004,0.04,1.092,Rule 6: Cake -> Alfajores
+7,Alfajores,Coffee,0.02,0.541,1.13,Rule 7: Alfajores -> Coffee
+8,Coffee,Alfajores,0.02,0.041,1.13,Rule 8: Coffee -> Alfajores
+9,Alfajores,Cookies,0.002,0.067,1.229,Rule 9: Alfajores -> Cookies
+10,Cookies,Alfajores,0.002,0.045,1.229,Rule 10: Cookies -> Alfajores
+11,Alfajores,Hot chocolate,0.004,0.099,1.695,Rule 11: Alfajores -> Hot chocolate
+12,Hot chocolate,Alfajores,0.004,0.062,1.695,Rule 12: Hot chocolate -> Alfajores
+13,Alfajores,Juice,0.003,0.084,2.186,Rule 13: Alfajores -> Juice
+14,Juice,Alfajores,0.003,0.079,2.186,Rule 14: Juice -> Alfajores
+15,Alfajores,Medialuna,0.003,0.087,1.411,Rule 15: Alfajores -> Medialuna
+16,Medialuna,Alfajores,0.003,0.051,1.411,Rule 16: Medialuna -> Alfajores
+17,Alfajores,Mineral water,0.001,0.035,2.464,Rule 17: Alfajores -> Mineral water
+18,Mineral water,Alfajores,0.001,0.09,2.464,Rule 18: Mineral water -> Alfajores
+19,Alfajores,Muffin,0.002,0.047,1.209,Rule 19: Alfajores -> Muffin
+20,Muffin,Alfajores,0.002,0.044,1.209,Rule 20: Muffin -> Alfajores
+21,Alfajores,Pastry,0.003,0.09,1.046,Rule 21: Alfajores -> Pastry
+22,Pastry,Alfajores,0.003,0.038,1.046,Rule 22: Pastry -> Alfajores
+23,Alfajores,Sandwich,0.003,0.073,1.011,Rule 23: Alfajores -> Sandwich
+24,Sandwich,Alfajores,0.003,0.037,1.011,Rule 24: Sandwich -> Alfajores
+25,Alfajores,Scandinavian,0.001,0.041,1.401,Rule 25: Alfajores -> Scandinavian
+26,Scandinavian,Alfajores,0.001,0.051,1.401,Rule 26: Scandinavian -> Alfajores
+27,Alfajores,Scone,0.001,0.038,1.094,Rule 27: Alfajores -> Scone
+28,Scone,Alfajores,0.001,0.04,1.094,Rule 28: Scone -> Alfajores
+29,Alfajores,Spanish Brunch,0.001,0.029,1.6,Rule 29: Alfajores -> Spanish Brunch
+30,Spanish Brunch,Alfajores,0.001,0.058,1.6,Rule 30: Spanish Brunch -> Alfajores
+31,Alfajores,Tea,0.007,0.186,1.304,Rule 31: Alfajores -> Tea
+32,Tea,Alfajores,0.007,0.047,1.304,Rule 32: Tea -> Alfajores
+33,Alfajores,Truffles,0.001,0.032,1.576,Rule 33: Alfajores -> Truffles
+34,Truffles,Alfajores,0.001,0.057,1.576,Rule 34: Truffles -> Alfajores
+35,Art Tray,Coffee,0.003,0.684,1.43,Rule 35: Art Tray -> Coffee
+36,Coffee,Art Tray,0.003,0.006,1.43,Rule 36: Coffee -> Art Tray
+37,Tea,Art Tray,0.001,0.008,2.029,Rule 37: Tea -> Art Tray
+38,Art Tray,Tea,0.001,0.289,2.029,Rule 38: Art Tray -> Tea
+39,Baguette,Bread,0.003,0.171,0.523,Rule 39: Baguette -> Bread
+40,Bread,Baguette,0.003,0.008,0.523,Rule 40: Bread -> Baguette
+41,Bakewell,Bread,0.001,0.229,0.7,Rule 41: Bakewell -> Bread
+42,Bread,Bakewell,0.001,0.004,0.7,Rule 42: Bread -> Bakewell
+43,Bakewell,Coffee,0.003,0.604,1.263,Rule 43: Bakewell -> Coffee
+44,Coffee,Bakewell,0.003,0.006,1.263,Rule 44: Coffee -> Bakewell
+45,Bakewell,Tea,0.001,0.25,1.753,Rule 45: Bakewell -> Tea
+46,Tea,Bakewell,0.001,0.009,1.753,Rule 46: Tea -> Bakewell
+47,Brownie,Bread,0.011,0.269,0.822,Rule 47: Brownie -> Bread
+48,Bread,Brownie,0.011,0.033,0.822,Rule 48: Bread -> Brownie
+49,Cake,Bread,0.023,0.225,0.687,Rule 49: Cake -> Bread
+50,Bread,Cake,0.023,0.071,0.687,Rule 50: Bread -> Cake
+51,Bread,Chicken Stew,0.003,0.008,0.646,Rule 51: Bread -> Chicken Stew
+52,Chicken Stew,Bread,0.003,0.211,0.646,Rule 52: Chicken Stew -> Bread
+53,Bread,Coffee,0.09,0.275,0.575,Rule 53: Bread -> Coffee
+54,Coffee,Bread,0.09,0.188,0.575,Rule 54: Coffee -> Bread
+55,Cookies,Bread,0.014,0.266,0.813,Rule 55: Cookies -> Bread
+56,Bread,Cookies,0.014,0.044,0.813,Rule 56: Bread -> Cookies
+57,Bread,Eggs,0.001,0.005,1.528,Rule 57: Bread -> Eggs
+58,Eggs,Bread,0.001,0.5,1.528,Rule 58: Eggs -> Bread
+59,Bread,Extra Salami or Feta,0.001,0.003,0.804,Rule 59: Bread -> Extra Salami or Feta
+60,Extra Salami or Feta,Bread,0.001,0.263,0.804,Rule 60: Extra Salami or Feta -> Bread
+61,Bread,Focaccia,0.002,0.006,1.075,Rule 61: Bread -> Focaccia
+62,Focaccia,Bread,0.002,0.352,1.075,Rule 62: Focaccia -> Bread
+63,Frittata,Bread,0.003,0.309,0.943,Rule 63: Frittata -> Bread
+64,Bread,Frittata,0.003,0.008,0.943,Rule 64: Bread -> Frittata
+65,Bread,Fudge,0.003,0.01,0.667,Rule 65: Bread -> Fudge
+66,Fudge,Bread,0.003,0.218,0.667,Rule 66: Fudge -> Bread
+67,Hearty & Seasonal,Bread,0.003,0.25,0.764,Rule 67: Hearty & Seasonal -> Bread
+68,Bread,Hearty & Seasonal,0.003,0.008,0.764,Rule 68: Bread -> Hearty & Seasonal
+69,Hot chocolate,Bread,0.013,0.23,0.703,Rule 69: Hot chocolate -> Bread
+70,Bread,Hot chocolate,0.013,0.041,0.703,Rule 70: Bread -> Hot chocolate
+71,Bread,Jam,0.005,0.015,1.033,Rule 71: Bread -> Jam
+72,Jam,Bread,0.005,0.338,1.033,Rule 72: Jam -> Bread
+73,Bread,Jammie Dodgers,0.005,0.014,1.076,Rule 73: Bread -> Jammie Dodgers
+74,Jammie Dodgers,Bread,0.005,0.352,1.076,Rule 74: Jammie Dodgers -> Bread
+75,Bread,Juice,0.007,0.023,0.586,Rule 75: Bread -> Juice
+76,Juice,Bread,0.007,0.192,0.586,Rule 76: Juice -> Bread
+77,Keeping It Local,Bread,0.002,0.333,1.019,Rule 77: Keeping It Local -> Bread
+78,Bread,Keeping It Local,0.002,0.007,1.019,Rule 78: Bread -> Keeping It Local
+79,Bread,Medialuna,0.017,0.052,0.836,Rule 79: Bread -> Medialuna
+80,Medialuna,Bread,0.017,0.274,0.836,Rule 80: Medialuna -> Bread
+81,Mineral water,Bread,0.003,0.224,0.684,Rule 81: Mineral water -> Bread
+82,Bread,Mineral water,0.003,0.01,0.684,Rule 82: Bread -> Mineral water
+83,Muffin,Bread,0.008,0.212,0.646,Rule 83: Muffin -> Bread
+84,Bread,Muffin,0.008,0.025,0.646,Rule 84: Bread -> Muffin
+85,Bread,Pastry,0.029,0.089,1.035,Rule 85: Bread -> Pastry
+86,Pastry,Bread,0.029,0.339,1.035,Rule 86: Pastry -> Bread
+87,Bread,Salad,0.002,0.006,0.586,Rule 87: Bread -> Salad
+88,Salad,Bread,0.002,0.192,0.586,Rule 88: Salad -> Bread
+89,Bread,Sandwich,0.017,0.052,0.724,Rule 89: Bread -> Sandwich
+90,Sandwich,Bread,0.017,0.237,0.724,Rule 90: Sandwich -> Bread
+91,Bread,Scandinavian,0.007,0.02,0.689,Rule 91: Bread -> Scandinavian
+92,Scandinavian,Bread,0.007,0.225,0.689,Rule 92: Scandinavian -> Bread
+93,Scone,Bread,0.009,0.263,0.804,Rule 93: Scone -> Bread
+94,Bread,Scone,0.009,0.028,0.804,Rule 94: Bread -> Scone
+95,Bread,Smoothies,0.002,0.007,0.913,Rule 95: Bread -> Smoothies
+96,Smoothies,Bread,0.002,0.299,0.913,Rule 96: Smoothies -> Bread
+97,Bread,Soup,0.007,0.02,0.581,Rule 97: Bread -> Soup
+98,Soup,Bread,0.007,0.19,0.581,Rule 98: Soup -> Bread
+99,Bread,Spanish Brunch,0.005,0.015,0.799,Rule 99: Bread -> Spanish Brunch
+100,Spanish Brunch,Bread,0.005,0.262,0.799,Rule 100: Spanish Brunch -> Bread
+101,Tea,Bread,0.028,0.197,0.602,Rule 101: Tea -> Bread
+102,Bread,Tea,0.028,0.086,0.602,Rule 102: Bread -> Tea
+103,Bread,The Nomad,0.002,0.005,0.843,Rule 103: Bread -> The Nomad
+104,The Nomad,Bread,0.002,0.276,0.843,Rule 104: The Nomad -> Bread
+105,Tiffin,Bread,0.005,0.315,0.963,Rule 105: Tiffin -> Bread
+106,Bread,Tiffin,0.005,0.015,0.963,Rule 106: Bread -> Tiffin
+107,Toast,Bread,0.008,0.233,0.711,Rule 107: Toast -> Bread
+108,Bread,Toast,0.008,0.024,0.711,Rule 108: Bread -> Toast
+109,Truffles,Bread,0.005,0.245,0.748,Rule 109: Truffles -> Bread
+110,Bread,Truffles,0.005,0.015,0.748,Rule 110: Bread -> Truffles
+111,Bread,Vegan mincepie,0.001,0.004,0.764,Rule 111: Bread -> Vegan mincepie
+112,Vegan mincepie,Bread,0.001,0.25,0.764,Rule 112: Vegan mincepie -> Bread
+113,Brownie,Cake,0.004,0.111,1.067,Rule 113: Brownie -> Cake
+114,Cake,Brownie,0.004,0.043,1.067,Rule 114: Cake -> Brownie
+115,Brownie,Coffee,0.02,0.491,1.026,Rule 115: Brownie -> Coffee
+116,Coffee,Brownie,0.02,0.041,1.026,Rule 116: Coffee -> Brownie
+117,Brownie,Coke,0.001,0.029,1.493,Rule 117: Brownie -> Coke
+118,Coke,Brownie,0.001,0.06,1.493,Rule 118: Coke -> Brownie
+119,Brownie,Cookies,0.003,0.063,1.164,Rule 119: Brownie -> Cookies
+120,Cookies,Brownie,0.003,0.047,1.164,Rule 120: Cookies -> Brownie
+121,Farm House,Brownie,0.001,0.03,0.74,Rule 121: Farm House -> Brownie
+122,Brownie,Farm House,0.001,0.029,0.74,Rule 122: Brownie -> Farm House
+123,Brownie,Hot chocolate,0.004,0.103,1.764,Rule 123: Brownie -> Hot chocolate
+124,Hot chocolate,Brownie,0.004,0.071,1.764,Rule 124: Hot chocolate -> Brownie
+125,Brownie,Juice,0.003,0.063,1.642,Rule 125: Brownie -> Juice
+126,Juice,Brownie,0.003,0.066,1.642,Rule 126: Juice -> Brownie
+127,Brownie,Medialuna,0.002,0.05,0.811,Rule 127: Brownie -> Medialuna
+128,Medialuna,Brownie,0.002,0.032,0.811,Rule 128: Medialuna -> Brownie
+129,Brownie,Muffin,0.002,0.045,1.166,Rule 129: Brownie -> Muffin
+130,Muffin,Brownie,0.002,0.047,1.166,Rule 130: Muffin -> Brownie
+131,Brownie,Pastry,0.002,0.061,0.705,Rule 131: Brownie -> Pastry
+132,Pastry,Brownie,0.002,0.028,0.705,Rule 132: Pastry -> Brownie
+133,Brownie,Sandwich,0.002,0.058,0.808,Rule 133: Brownie -> Sandwich
+134,Sandwich,Brownie,0.002,0.032,0.808,Rule 134: Sandwich -> Brownie
+135,Brownie,Scone,0.001,0.032,0.916,Rule 135: Brownie -> Scone
+136,Scone,Brownie,0.001,0.037,0.916,Rule 136: Scone -> Brownie
+137,Brownie,Soup,0.001,0.037,1.072,Rule 137: Brownie -> Soup
+138,Soup,Brownie,0.001,0.043,1.072,Rule 138: Soup -> Brownie
+139,Brownie,Tea,0.007,0.169,1.184,Rule 139: Brownie -> Tea
+140,Tea,Brownie,0.007,0.047,1.184,Rule 140: Tea -> Brownie
+141,Brownie,Truffles,0.001,0.029,1.431,Rule 141: Brownie -> Truffles
+142,Truffles,Brownie,0.001,0.057,1.431,Rule 142: Truffles -> Brownie
+143,Cake,Chicken Stew,0.002,0.016,1.252,Rule 143: Cake -> Chicken Stew
+144,Chicken Stew,Cake,0.002,0.13,1.252,Rule 144: Chicken Stew -> Cake
+145,Cake,Coffee,0.055,0.527,1.101,Rule 145: Cake -> Coffee
+146,Coffee,Cake,0.055,0.114,1.101,Rule 146: Coffee -> Cake
+147,Cake,Coke,0.002,0.017,0.89,Rule 147: Cake -> Coke
+148,Coke,Cake,0.002,0.092,0.89,Rule 148: Coke -> Cake
+149,Cake,Cookies,0.007,0.07,1.29,Rule 149: Cake -> Cookies
+150,Cookies,Cake,0.007,0.134,1.29,Rule 150: Cookies -> Cake
+151,Cake,Hot chocolate,0.011,0.11,1.884,Rule 151: Cake -> Hot chocolate
+152,Hot chocolate,Cake,0.011,0.196,1.884,Rule 152: Hot chocolate -> Cake
+153,Cake,Jammie Dodgers,0.003,0.03,2.234,Rule 153: Cake -> Jammie Dodgers
+154,Jammie Dodgers,Cake,0.003,0.232,2.234,Rule 154: Jammie Dodgers -> Cake
+155,Cake,Juice,0.007,0.068,1.767,Rule 155: Cake -> Juice
+156,Juice,Cake,0.007,0.184,1.767,Rule 156: Juice -> Cake
+157,Cake,Medialuna,0.004,0.036,0.576,Rule 157: Cake -> Medialuna
+158,Medialuna,Cake,0.004,0.06,0.576,Rule 158: Medialuna -> Cake
+159,Cake,Mineral water,0.001,0.013,0.934,Rule 159: Cake -> Mineral water
+160,Mineral water,Cake,0.001,0.097,0.934,Rule 160: Mineral water -> Cake
+161,Cake,Muffin,0.005,0.047,1.217,Rule 161: Cake -> Muffin
+162,Muffin,Cake,0.005,0.126,1.217,Rule 162: Muffin -> Cake
+163,Cake,Pastry,0.005,0.05,0.579,Rule 163: Cake -> Pastry
+164,Pastry,Cake,0.005,0.06,0.579,Rule 164: Pastry -> Cake
+165,Cake,Salad,0.001,0.013,1.264,Rule 165: Cake -> Salad
+166,Salad,Cake,0.001,0.131,1.264,Rule 166: Salad -> Cake
+167,Cake,Sandwich,0.007,0.066,0.92,Rule 167: Cake -> Sandwich
+168,Sandwich,Cake,0.007,0.096,0.92,Rule 168: Sandwich -> Cake
+169,Cake,Scone,0.005,0.046,1.325,Rule 169: Cake -> Scone
+170,Scone,Cake,0.005,0.138,1.325,Rule 170: Scone -> Cake
+171,Cake,Smoothies,0.002,0.015,1.876,Rule 171: Cake -> Smoothies
+172,Smoothies,Cake,0.002,0.195,1.876,Rule 172: Smoothies -> Cake
+173,Cake,Soup,0.004,0.043,1.24,Rule 173: Cake -> Soup
+174,Soup,Cake,0.004,0.129,1.24,Rule 174: Soup -> Cake
+175,Cake,Spanish Brunch,0.002,0.022,1.231,Rule 175: Cake -> Spanish Brunch
+176,Spanish Brunch,Cake,0.002,0.128,1.231,Rule 176: Spanish Brunch -> Cake
+177,Cake,Tea,0.024,0.229,1.605,Rule 177: Cake -> Tea
+178,Tea,Cake,0.024,0.167,1.605,Rule 178: Tea -> Cake
+179,Cake,Tiffin,0.002,0.022,1.451,Rule 179: Cake -> Tiffin
+180,Tiffin,Cake,0.002,0.151,1.451,Rule 180: Tiffin -> Cake
+181,Cake,Toast,0.002,0.021,0.636,Rule 181: Cake -> Toast
+182,Toast,Cake,0.002,0.066,0.636,Rule 182: Toast -> Cake
+183,Truffles,Cake,0.003,0.13,1.254,Rule 183: Truffles -> Cake
+184,Cake,Truffles,0.003,0.025,1.254,Rule 184: Cake -> Truffles
+185,Cake,Vegan mincepie,0.001,0.012,2.222,Rule 185: Cake -> Vegan mincepie
+186,Vegan mincepie,Cake,0.001,0.231,2.222,Rule 186: Vegan mincepie -> Cake
+187,Coffee,Chicken Stew,0.005,0.011,0.833,Rule 187: Coffee -> Chicken Stew
+188,Chicken Stew,Coffee,0.005,0.398,0.833,Rule 188: Chicken Stew -> Coffee
+189,Chicken Stew,Coke,0.001,0.081,4.182,Rule 189: Chicken Stew -> Coke
+190,Coke,Chicken Stew,0.001,0.054,4.182,Rule 190: Coke -> Chicken Stew
+191,Juice,Chicken Stew,0.002,0.044,3.373,Rule 191: Juice -> Chicken Stew
+192,Chicken Stew,Juice,0.002,0.13,3.373,Rule 192: Chicken Stew -> Juice
+193,Sandwich,Chicken Stew,0.002,0.028,2.15,Rule 193: Sandwich -> Chicken Stew
+194,Chicken Stew,Sandwich,0.002,0.154,2.15,Rule 194: Chicken Stew -> Sandwich
+195,Soup,Chicken Stew,0.002,0.046,3.54,Rule 195: Soup -> Chicken Stew
+196,Chicken Stew,Soup,0.002,0.122,3.54,Rule 196: Chicken Stew -> Soup
+197,Spanish Brunch,Chicken Stew,0.001,0.064,4.921,Rule 197: Spanish Brunch -> Chicken Stew
+198,Chicken Stew,Spanish Brunch,0.001,0.089,4.921,Rule 198: Chicken Stew -> Spanish Brunch
+199,Tea,Chicken Stew,0.003,0.022,1.71,Rule 199: Tea -> Chicken Stew
+200,Chicken Stew,Tea,0.003,0.244,1.71,Rule 200: Chicken Stew -> Tea
+201,Truffles,Chicken Stew,0.001,0.052,4.007,Rule 201: Truffles -> Chicken Stew
+202,Chicken Stew,Truffles,0.001,0.081,4.007,Rule 202: Chicken Stew -> Truffles
+203,Coffee,Coke,0.006,0.013,0.693,Rule 203: Coffee -> Coke
+204,Coke,Coffee,0.006,0.332,0.693,Rule 204: Coke -> Coffee
+205,Cookies,Coffee,0.028,0.518,1.084,Rule 205: Cookies -> Coffee
+206,Coffee,Cookies,0.028,0.059,1.084,Rule 206: Coffee -> Cookies
+207,Extra Salami or Feta,Coffee,0.003,0.816,1.705,Rule 207: Extra Salami or Feta -> Coffee
+208,Coffee,Extra Salami or Feta,0.003,0.007,1.705,Rule 208: Coffee -> Extra Salami or Feta
+209,Frittata,Coffee,0.005,0.531,1.11,Rule 209: Frittata -> Coffee
+210,Coffee,Frittata,0.005,0.009,1.11,Rule 210: Coffee -> Frittata
+211,Granola,Coffee,0.002,0.607,1.269,Rule 211: Granola -> Coffee
+212,Coffee,Granola,0.002,0.004,1.269,Rule 212: Coffee -> Granola
+213,Hearty & Seasonal,Coffee,0.006,0.54,1.129,Rule 213: Hearty & Seasonal -> Coffee
+214,Coffee,Hearty & Seasonal,0.006,0.012,1.129,Rule 214: Coffee -> Hearty & Seasonal
+215,Hot chocolate,Coffee,0.03,0.507,1.06,Rule 215: Hot chocolate -> Coffee
+216,Coffee,Hot chocolate,0.03,0.062,1.06,Rule 216: Coffee -> Hot chocolate
+217,Jam,Coffee,0.004,0.275,0.574,Rule 217: Jam -> Coffee
+218,Coffee,Jam,0.004,0.009,0.574,Rule 218: Coffee -> Jam
+219,Jammie Dodgers,Coffee,0.007,0.504,1.053,Rule 219: Jammie Dodgers -> Coffee
+220,Coffee,Jammie Dodgers,0.007,0.014,1.053,Rule 220: Coffee -> Jammie Dodgers
+221,Juice,Coffee,0.021,0.534,1.117,Rule 221: Juice -> Coffee
+222,Coffee,Juice,0.021,0.043,1.117,Rule 222: Coffee -> Juice
+223,Keeping It Local,Coffee,0.005,0.81,1.692,Rule 223: Keeping It Local -> Coffee
+224,Coffee,Keeping It Local,0.005,0.011,1.692,Rule 224: Coffee -> Keeping It Local
+225,Medialuna,Coffee,0.035,0.569,1.19,Rule 225: Medialuna -> Coffee
+226,Coffee,Medialuna,0.035,0.074,1.19,Rule 226: Coffee -> Medialuna
+227,Mineral water,Coffee,0.006,0.396,0.827,Rule 227: Mineral water -> Coffee
+228,Coffee,Mineral water,0.006,0.012,0.827,Rule 228: Coffee -> Mineral water
+229,Muffin,Coffee,0.019,0.489,1.022,Rule 229: Muffin -> Coffee
+230,Coffee,Muffin,0.019,0.039,1.022,Rule 230: Coffee -> Muffin
+231,Pastry,Coffee,0.048,0.552,1.154,Rule 231: Pastry -> Coffee
+232,Coffee,Pastry,0.048,0.099,1.154,Rule 232: Coffee -> Pastry
+233,Salad,Coffee,0.007,0.626,1.309,Rule 233: Salad -> Coffee
+234,Coffee,Salad,0.007,0.014,1.309,Rule 234: Coffee -> Salad
+235,Sandwich,Coffee,0.038,0.532,1.113,Rule 235: Sandwich -> Coffee
+236,Coffee,Sandwich,0.038,0.08,1.113,Rule 236: Coffee -> Sandwich
+237,Scone,Coffee,0.018,0.523,1.093,Rule 237: Scone -> Coffee
+238,Coffee,Scone,0.018,0.038,1.093,Rule 238: Coffee -> Scone
+239,Smoothies,Coffee,0.004,0.494,1.031,Rule 239: Smoothies -> Coffee
+240,Coffee,Smoothies,0.004,0.008,1.031,Rule 240: Coffee -> Smoothies
+241,Soup,Coffee,0.016,0.46,0.962,Rule 241: Soup -> Coffee
+242,Coffee,Soup,0.016,0.033,0.962,Rule 242: Coffee -> Soup
+243,Spanish Brunch,Coffee,0.011,0.599,1.252,Rule 243: Spanish Brunch -> Coffee
+244,Coffee,Spanish Brunch,0.011,0.023,1.252,Rule 244: Coffee -> Spanish Brunch
+245,Tartine,Coffee,0.003,0.63,1.318,Rule 245: Tartine -> Coffee
+246,Coffee,Tartine,0.003,0.006,1.318,Rule 246: Coffee -> Tartine
+247,Tea,Coffee,0.05,0.35,0.731,Rule 247: Tea -> Coffee
+248,Coffee,Tea,0.05,0.104,0.731,Rule 248: Coffee -> Tea
+249,The Nomad,Coffee,0.003,0.534,1.117,Rule 249: The Nomad -> Coffee
+250,Coffee,The Nomad,0.003,0.007,1.117,Rule 250: Coffee -> The Nomad
+251,Tiffin,Coffee,0.008,0.548,1.145,Rule 251: Tiffin -> Coffee
+252,Coffee,Tiffin,0.008,0.018,1.145,Rule 252: Coffee -> Tiffin
+253,Toast,Coffee,0.024,0.704,1.472,Rule 253: Toast -> Coffee
+254,Coffee,Toast,0.024,0.049,1.472,Rule 254: Coffee -> Toast
+255,Truffles,Coffee,0.008,0.37,0.773,Rule 255: Truffles -> Coffee
+256,Coffee,Truffles,0.008,0.016,0.773,Rule 256: Coffee -> Truffles
+257,Vegan mincepie,Coffee,0.003,0.577,1.206,Rule 257: Vegan mincepie -> Coffee
+258,Coffee,Vegan mincepie,0.003,0.007,1.206,Rule 258: Coffee -> Vegan mincepie
+259,Juice,Coke,0.002,0.058,2.959,Rule 259: Juice -> Coke
+260,Coke,Juice,0.002,0.114,2.959,Rule 260: Coke -> Juice
+261,Mineral water,Coke,0.001,0.082,4.222,Rule 261: Mineral water -> Coke
+262,Coke,Mineral water,0.001,0.06,4.222,Rule 262: Coke -> Mineral water
+263,Sandwich,Coke,0.005,0.072,3.706,Rule 263: Sandwich -> Coke
+264,Coke,Sandwich,0.005,0.266,3.706,Rule 264: Coke -> Sandwich
+265,Soup,Coke,0.002,0.046,2.367,Rule 265: Soup -> Coke
+266,Coke,Soup,0.002,0.082,2.367,Rule 266: Coke -> Soup
+267,Tea,Coke,0.002,0.016,0.8,Rule 267: Tea -> Coke
+268,Coke,Tea,0.002,0.114,0.8,Rule 268: Coke -> Tea
+269,Truffles,Coke,0.001,0.062,3.215,Rule 269: Truffles -> Coke
+270,Coke,Truffles,0.001,0.065,3.215,Rule 270: Coke -> Truffles
+271,Farm House,Cookies,0.001,0.032,0.594,Rule 271: Farm House -> Cookies
+272,Cookies,Farm House,0.001,0.023,0.594,Rule 272: Cookies -> Farm House
+273,Hot chocolate,Cookies,0.006,0.103,1.898,Rule 273: Hot chocolate -> Cookies
+274,Cookies,Hot chocolate,0.006,0.111,1.898,Rule 274: Cookies -> Hot chocolate
+275,Cookies,Jammie Dodgers,0.001,0.019,1.47,Rule 275: Cookies -> Jammie Dodgers
+276,Jammie Dodgers,Cookies,0.001,0.08,1.47,Rule 276: Jammie Dodgers -> Cookies
+277,Cookies,Juice,0.006,0.113,2.92,Rule 277: Cookies -> Juice
+278,Juice,Cookies,0.006,0.159,2.92,Rule 278: Juice -> Cookies
+279,Cookies,Medialuna,0.003,0.047,0.754,Rule 279: Cookies -> Medialuna
+280,Medialuna,Cookies,0.003,0.041,0.754,Rule 280: Medialuna -> Cookies
+281,Mineral water,Cookies,0.001,0.097,1.783,Rule 281: Mineral water -> Cookies
+282,Cookies,Mineral water,0.001,0.025,1.783,Rule 282: Cookies -> Mineral water
+283,Muffin,Cookies,0.002,0.044,0.808,Rule 283: Muffin -> Cookies
+284,Cookies,Muffin,0.002,0.031,0.808,Rule 284: Cookies -> Muffin
+285,Cookies,Pastry,0.003,0.054,0.631,Rule 285: Cookies -> Pastry
+286,Pastry,Cookies,0.003,0.034,0.631,Rule 286: Pastry -> Cookies
+287,Cookies,Sandwich,0.003,0.052,0.73,Rule 287: Cookies -> Sandwich
+288,Sandwich,Cookies,0.003,0.04,0.73,Rule 288: Sandwich -> Cookies
+289,Cookies,Scone,0.002,0.037,1.068,Rule 289: Cookies -> Scone
+290,Scone,Cookies,0.002,0.058,1.068,Rule 290: Scone -> Cookies
+291,Cookies,Soup,0.001,0.023,0.676,Rule 291: Cookies -> Soup
+292,Soup,Cookies,0.001,0.037,0.676,Rule 292: Soup -> Cookies
+293,Cookies,Tea,0.01,0.181,1.266,Rule 293: Cookies -> Tea
+294,Tea,Cookies,0.01,0.069,1.266,Rule 294: Tea -> Cookies
+295,Tiffin,Cookies,0.001,0.082,1.51,Rule 295: Tiffin -> Cookies
+296,Cookies,Tiffin,0.001,0.023,1.51,Rule 296: Cookies -> Tiffin
+297,Cookies,Toast,0.002,0.041,1.214,Rule 297: Cookies -> Toast
+298,Toast,Cookies,0.002,0.066,1.214,Rule 298: Toast -> Cookies
+299,Extra Salami or Feta,Salad,0.002,0.421,40.251,Rule 299: Extra Salami or Feta -> Salad
+300,Salad,Extra Salami or Feta,0.002,0.162,40.251,Rule 300: Salad -> Extra Salami or Feta
+301,Farm House,Medialuna,0.002,0.059,0.959,Rule 301: Farm House -> Medialuna
+302,Medialuna,Farm House,0.002,0.038,0.959,Rule 302: Medialuna -> Farm House
+303,Farm House,Pastry,0.003,0.07,0.814,Rule 303: Farm House -> Pastry
+304,Pastry,Farm House,0.003,0.032,0.814,Rule 304: Pastry -> Farm House
+305,Farm House,Scandinavian,0.002,0.043,1.484,Rule 305: Farm House -> Scandinavian
+306,Scandinavian,Farm House,0.002,0.058,1.484,Rule 306: Scandinavian -> Farm House
+307,Frittata,Tea,0.002,0.222,1.558,Rule 307: Frittata -> Tea
+308,Tea,Frittata,0.002,0.013,1.558,Rule 308: Tea -> Frittata
+309,Jam,Fudge,0.003,0.169,11.264,Rule 309: Jam -> Fudge
+310,Fudge,Jam,0.003,0.169,11.264,Rule 310: Fudge -> Jam
+311,Sandwich,Fudge,0.001,0.021,1.372,Rule 311: Sandwich -> Fudge
+312,Fudge,Sandwich,0.001,0.099,1.372,Rule 312: Fudge -> Sandwich
+313,Tea,Fudge,0.001,0.008,0.543,Rule 313: Tea -> Fudge
+314,Fudge,Tea,0.001,0.077,0.543,Rule 314: Fudge -> Tea
+315,Hearty & Seasonal,Sandwich,0.001,0.14,1.948,Rule 315: Hearty & Seasonal -> Sandwich
+316,Sandwich,Hearty & Seasonal,0.001,0.021,1.948,Rule 316: Sandwich -> Hearty & Seasonal
+317,Hearty & Seasonal,Soup,0.001,0.12,3.484,Rule 317: Hearty & Seasonal -> Soup
+318,Soup,Hearty & Seasonal,0.001,0.037,3.484,Rule 318: Soup -> Hearty & Seasonal
+319,Hearty & Seasonal,Tea,0.002,0.19,1.332,Rule 319: Hearty & Seasonal -> Tea
+320,Tea,Hearty & Seasonal,0.002,0.014,1.332,Rule 320: Tea -> Hearty & Seasonal
+321,Hot chocolate,Jammie Dodgers,0.001,0.025,1.92,Rule 321: Hot chocolate -> Jammie Dodgers
+322,Jammie Dodgers,Hot chocolate,0.001,0.112,1.92,Rule 322: Jammie Dodgers -> Hot chocolate
+323,Hot chocolate,Juice,0.002,0.038,0.986,Rule 323: Hot chocolate -> Juice
+324,Juice,Hot chocolate,0.002,0.058,0.986,Rule 324: Juice -> Hot chocolate
+325,Hot chocolate,Medialuna,0.005,0.082,1.319,Rule 325: Hot chocolate -> Medialuna
+326,Medialuna,Hot chocolate,0.005,0.077,1.319,Rule 326: Medialuna -> Hot chocolate
+327,Muffin,Hot chocolate,0.004,0.093,1.601,Rule 327: Muffin -> Hot chocolate
+328,Hot chocolate,Muffin,0.004,0.062,1.601,Rule 328: Hot chocolate -> Muffin
+329,Hot chocolate,Pastry,0.006,0.098,1.136,Rule 329: Hot chocolate -> Pastry
+330,Pastry,Hot chocolate,0.006,0.066,1.136,Rule 330: Pastry -> Hot chocolate
+331,Hot chocolate,Sandwich,0.004,0.076,1.059,Rule 331: Hot chocolate -> Sandwich
+332,Sandwich,Hot chocolate,0.004,0.062,1.059,Rule 332: Sandwich -> Hot chocolate
+333,Hot chocolate,Scone,0.003,0.051,1.468,Rule 333: Hot chocolate -> Scone
+334,Scone,Hot chocolate,0.003,0.086,1.468,Rule 334: Scone -> Hot chocolate
+335,Hot chocolate,Tea,0.008,0.138,0.965,Rule 335: Hot chocolate -> Tea
+336,Tea,Hot chocolate,0.008,0.056,0.965,Rule 336: Tea -> Hot chocolate
+337,Tiffin,Hot chocolate,0.001,0.089,1.527,Rule 337: Tiffin -> Hot chocolate
+338,Hot chocolate,Tiffin,0.001,0.024,1.527,Rule 338: Hot chocolate -> Tiffin
+339,Hot chocolate,Toast,0.003,0.053,1.564,Rule 339: Hot chocolate -> Toast
+340,Toast,Hot chocolate,0.003,0.091,1.564,Rule 340: Toast -> Hot chocolate
+341,Jam,Pastry,0.001,0.085,0.981,Rule 341: Jam -> Pastry
+342,Pastry,Jam,0.001,0.015,0.981,Rule 342: Pastry -> Jam
+343,Tea,Jam,0.001,0.009,0.592,Rule 343: Tea -> Jam
+344,Jam,Tea,0.001,0.085,0.592,Rule 344: Jam -> Tea
+345,Juice,Jammie Dodgers,0.002,0.055,4.149,Rule 345: Juice -> Jammie Dodgers
+346,Jammie Dodgers,Juice,0.002,0.16,4.149,Rule 346: Jammie Dodgers -> Juice
+347,Tea,Jammie Dodgers,0.003,0.018,1.346,Rule 347: Tea -> Jammie Dodgers
+348,Jammie Dodgers,Tea,0.003,0.192,1.346,Rule 348: Jammie Dodgers -> Tea
+349,Tiffin,Jammie Dodgers,0.001,0.075,5.704,Rule 349: Tiffin -> Jammie Dodgers
+350,Jammie Dodgers,Tiffin,0.001,0.088,5.704,Rule 350: Jammie Dodgers -> Tiffin
+351,Medialuna,Juice,0.002,0.034,0.886,Rule 351: Medialuna -> Juice
+352,Juice,Medialuna,0.002,0.055,0.886,Rule 352: Juice -> Medialuna
+353,Mineral water,Juice,0.002,0.119,3.096,Rule 353: Mineral water -> Juice
+354,Juice,Mineral water,0.002,0.044,3.096,Rule 354: Juice -> Mineral water
+355,Muffin,Juice,0.003,0.071,1.852,Rule 355: Muffin -> Juice
+356,Juice,Muffin,0.003,0.071,1.852,Rule 356: Juice -> Muffin
+357,Juice,Pastry,0.002,0.06,0.7,Rule 357: Juice -> Pastry
+358,Pastry,Juice,0.002,0.027,0.7,Rule 358: Pastry -> Juice
+359,Juice,Salad,0.001,0.027,2.619,Rule 359: Juice -> Salad
+360,Salad,Juice,0.001,0.101,2.619,Rule 360: Salad -> Juice
+361,Juice,Sandwich,0.006,0.151,2.097,Rule 361: Juice -> Sandwich
+362,Sandwich,Juice,0.006,0.081,2.097,Rule 362: Sandwich -> Juice
+363,Scone,Juice,0.002,0.058,1.507,Rule 363: Scone -> Juice
+364,Juice,Scone,0.002,0.052,1.507,Rule 364: Juice -> Scone
+365,Juice,Soup,0.002,0.047,1.352,Rule 365: Juice -> Soup
+366,Soup,Juice,0.002,0.052,1.352,Rule 366: Soup -> Juice
+367,Juice,Spanish Brunch,0.003,0.071,3.919,Rule 367: Juice -> Spanish Brunch
+368,Spanish Brunch,Juice,0.003,0.151,3.919,Rule 368: Spanish Brunch -> Juice
+369,Tea,Juice,0.007,0.05,1.306,Rule 369: Tea -> Juice
+370,Juice,Tea,0.007,0.186,1.306,Rule 370: Juice -> Tea
+371,Toast,Juice,0.002,0.069,1.794,Rule 371: Toast -> Juice
+372,Juice,Toast,0.002,0.06,1.794,Rule 372: Juice -> Toast
+373,Truffles,Juice,0.002,0.099,2.566,Rule 373: Truffles -> Juice
+374,Juice,Truffles,0.002,0.052,2.566,Rule 374: Juice -> Truffles
+375,Keeping It Local,Tea,0.002,0.27,1.892,Rule 375: Keeping It Local -> Tea
+376,Tea,Keeping It Local,0.002,0.013,1.892,Rule 376: Tea -> Keeping It Local
+377,Muffin,Medialuna,0.002,0.052,0.844,Rule 377: Muffin -> Medialuna
+378,Medialuna,Muffin,0.002,0.032,0.844,Rule 378: Medialuna -> Muffin
+379,Medialuna,Pastry,0.009,0.149,1.727,Rule 379: Medialuna -> Pastry
+380,Pastry,Medialuna,0.009,0.107,1.727,Rule 380: Pastry -> Medialuna
+381,Medialuna,Scandinavian,0.001,0.021,0.706,Rule 381: Medialuna -> Scandinavian
+382,Scandinavian,Medialuna,0.001,0.044,0.706,Rule 382: Scandinavian -> Medialuna
+383,Scone,Medialuna,0.001,0.043,0.693,Rule 383: Scone -> Medialuna
+384,Medialuna,Scone,0.001,0.024,0.693,Rule 384: Medialuna -> Scone
+385,Tea,Medialuna,0.008,0.057,0.923,Rule 385: Tea -> Medialuna
+386,Medialuna,Tea,0.008,0.132,0.923,Rule 386: Medialuna -> Tea
+387,Toast,Medialuna,0.002,0.057,0.916,Rule 387: Toast -> Medialuna
+388,Medialuna,Toast,0.002,0.031,0.916,Rule 388: Medialuna -> Toast
+389,Truffles,Medialuna,0.001,0.062,1.011,Rule 389: Truffles -> Medialuna
+390,Medialuna,Truffles,0.001,0.021,1.011,Rule 390: Medialuna -> Truffles
+391,Mineral water,Sandwich,0.003,0.231,3.22,Rule 391: Mineral water -> Sandwich
+392,Sandwich,Mineral water,0.003,0.046,3.22,Rule 392: Sandwich -> Mineral water
+393,Mineral water,Soup,0.002,0.134,3.9,Rule 393: Mineral water -> Soup
+394,Soup,Mineral water,0.002,0.055,3.9,Rule 394: Soup -> Mineral water
+395,Mineral water,Tea,0.001,0.09,0.628,Rule 395: Mineral water -> Tea
+396,Tea,Mineral water,0.001,0.009,0.628,Rule 396: Tea -> Mineral water
+397,Truffles,Mineral water,0.001,0.057,4.046,Rule 397: Truffles -> Mineral water
+398,Mineral water,Truffles,0.001,0.082,4.046,Rule 398: Mineral water -> Truffles
+399,Muffin,Pastry,0.003,0.066,0.766,Rule 399: Muffin -> Pastry
+400,Pastry,Muffin,0.003,0.029,0.766,Rule 400: Pastry -> Muffin
+401,Muffin,Sandwich,0.002,0.055,0.765,Rule 401: Muffin -> Sandwich
+402,Sandwich,Muffin,0.002,0.029,0.765,Rule 402: Sandwich -> Muffin
+403,Muffin,Scandinavian,0.001,0.036,1.229,Rule 403: Muffin -> Scandinavian
+404,Scandinavian,Muffin,0.001,0.047,1.229,Rule 404: Scandinavian -> Muffin
+405,Muffin,Soup,0.001,0.033,0.957,Rule 405: Muffin -> Soup
+406,Soup,Muffin,0.001,0.037,0.957,Rule 406: Soup -> Muffin
+407,Muffin,Tea,0.007,0.17,1.194,Rule 407: Muffin -> Tea
+408,Tea,Muffin,0.007,0.046,1.194,Rule 408: Tea -> Muffin
+409,Scandinavian,Pastry,0.001,0.051,0.591,Rule 409: Scandinavian -> Pastry
+410,Pastry,Scandinavian,0.001,0.017,0.591,Rule 410: Pastry -> Scandinavian
+411,Scone,Pastry,0.002,0.07,0.817,Rule 411: Scone -> Pastry
+412,Pastry,Scone,0.002,0.028,0.817,Rule 412: Pastry -> Scone
+413,Tea,Pastry,0.01,0.067,0.783,Rule 413: Tea -> Pastry
+414,Pastry,Tea,0.01,0.112,0.783,Rule 414: Pastry -> Tea
+415,Toast,Pastry,0.002,0.047,0.548,Rule 415: Toast -> Pastry
+416,Pastry,Toast,0.002,0.018,0.548,Rule 416: Pastry -> Toast
+417,Truffles,Pastry,0.002,0.083,0.968,Rule 417: Truffles -> Pastry
+418,Pastry,Truffles,0.002,0.02,0.968,Rule 418: Pastry -> Truffles
+419,Sandwich,Salad,0.002,0.026,2.53,Rule 419: Sandwich -> Salad
+420,Salad,Sandwich,0.002,0.182,2.53,Rule 420: Salad -> Sandwich
+421,Soup,Salad,0.001,0.037,3.519,Rule 421: Soup -> Salad
+422,Salad,Soup,0.001,0.121,3.519,Rule 422: Salad -> Soup
+423,Salad,Spanish Brunch,0.001,0.121,6.669,Rule 423: Salad -> Spanish Brunch
+424,Spanish Brunch,Salad,0.001,0.07,6.669,Rule 424: Spanish Brunch -> Salad
+425,Tea,Salad,0.002,0.014,1.345,Rule 425: Tea -> Salad
+426,Salad,Tea,0.002,0.192,1.345,Rule 426: Salad -> Tea
+427,Scone,Sandwich,0.002,0.052,0.724,Rule 427: Scone -> Sandwich
+428,Sandwich,Scone,0.002,0.025,0.724,Rule 428: Sandwich -> Scone
+429,Smoothies,Sandwich,0.002,0.221,3.073,Rule 429: Smoothies -> Sandwich
+430,Sandwich,Smoothies,0.002,0.025,3.073,Rule 430: Sandwich -> Smoothies
+431,Sandwich,Soup,0.005,0.076,2.22,Rule 431: Sandwich -> Soup
+432,Soup,Sandwich,0.005,0.16,2.22,Rule 432: Soup -> Sandwich
+433,Sandwich,Spanish Brunch,0.002,0.026,1.456,Rule 433: Sandwich -> Spanish Brunch
+434,Spanish Brunch,Sandwich,0.002,0.105,1.456,Rule 434: Spanish Brunch -> Sandwich
+435,Tea,Sandwich,0.014,0.101,1.402,Rule 435: Tea -> Sandwich
+436,Sandwich,Tea,0.014,0.2,1.402,Rule 436: Sandwich -> Tea
+437,Toast,Sandwich,0.002,0.057,0.788,Rule 437: Toast -> Sandwich
+438,Sandwich,Toast,0.002,0.026,0.788,Rule 438: Sandwich -> Toast
+439,Truffles,Sandwich,0.004,0.188,2.61,Rule 439: Truffles -> Sandwich
+440,Sandwich,Truffles,0.004,0.053,2.61,Rule 440: Sandwich -> Truffles
+441,Scone,Soup,0.001,0.034,0.977,Rule 441: Scone -> Soup
+442,Soup,Scone,0.001,0.034,0.977,Rule 442: Soup -> Scone
+443,Scone,Tea,0.008,0.242,1.694,Rule 443: Scone -> Tea
+444,Tea,Scone,0.008,0.059,1.694,Rule 444: Tea -> Scone
+445,Soup,Spanish Brunch,0.001,0.031,1.688,Rule 445: Soup -> Spanish Brunch
+446,Spanish Brunch,Soup,0.001,0.058,1.688,Rule 446: Spanish Brunch -> Soup
+447,Tea,Soup,0.009,0.064,1.849,Rule 447: Tea -> Soup
+448,Soup,Tea,0.009,0.264,1.849,Rule 448: Soup -> Tea
+449,Truffles,Soup,0.002,0.083,2.419,Rule 449: Truffles -> Soup
+450,Soup,Truffles,0.002,0.049,2.419,Rule 450: Soup -> Truffles
+451,Tea,Spanish Brunch,0.005,0.033,1.793,Rule 451: Tea -> Spanish Brunch
+452,Spanish Brunch,Tea,0.005,0.256,1.793,Rule 452: Spanish Brunch -> Tea
+453,Toast,Spanish Brunch,0.001,0.031,1.73,Rule 453: Toast -> Spanish Brunch
+454,Spanish Brunch,Toast,0.001,0.058,1.73,Rule 454: Spanish Brunch -> Toast
+455,Truffles,Spanish Brunch,0.002,0.089,4.872,Rule 455: Truffles -> Spanish Brunch
+456,Spanish Brunch,Truffles,0.002,0.099,4.872,Rule 456: Spanish Brunch -> Truffles
+457,Tea,The Nomad,0.002,0.013,2.055,Rule 457: Tea -> The Nomad
+458,The Nomad,Tea,0.002,0.293,2.055,Rule 458: The Nomad -> Tea
+459,Tiffin,Tea,0.003,0.226,1.585,Rule 459: Tiffin -> Tea
+460,Tea,Tiffin,0.003,0.024,1.585,Rule 460: Tea -> Tiffin
+461,Tea,Toast,0.006,0.045,1.345,Rule 461: Tea -> Toast
+462,Toast,Tea,0.006,0.192,1.345,Rule 462: Toast -> Tea
+463,Truffles,Tea,0.003,0.151,1.059,Rule 463: Truffles -> Tea
+464,Tea,Truffles,0.003,0.021,1.059,Rule 464: Tea -> Truffles
+465,"Alfajores, Bread",Brownie,0.001,0.102,2.548,"Rule 465: Alfajores, Bread -> Brownie"
+466,"Alfajores, Brownie",Bread,0.001,0.37,1.132,"Rule 466: Alfajores, Brownie -> Bread"
+467,"Brownie, Bread",Alfajores,0.001,0.098,2.697,"Rule 467: Brownie, Bread -> Alfajores"
+468,"Alfajores, Bread",Coffee,0.004,0.418,0.874,"Rule 468: Alfajores, Bread -> Coffee"
+469,"Alfajores, Coffee",Bread,0.004,0.22,0.674,"Rule 469: Alfajores, Coffee -> Bread"
+470,"Bread, Coffee",Alfajores,0.004,0.048,1.324,"Rule 470: Bread, Coffee -> Alfajores"
+471,"Alfajores, Bread",Medialuna,0.001,0.112,1.816,"Rule 471: Alfajores, Bread -> Medialuna"
+472,"Alfajores, Medialuna",Bread,0.001,0.367,1.12,"Rule 472: Alfajores, Medialuna -> Bread"
+473,"Bread, Medialuna",Alfajores,0.001,0.069,1.891,"Rule 473: Bread, Medialuna -> Alfajores"
+474,"Alfajores, Tea",Bread,0.002,0.25,0.764,"Rule 474: Alfajores, Tea -> Bread"
+475,"Alfajores, Bread",Tea,0.002,0.163,1.145,"Rule 475: Alfajores, Bread -> Tea"
+476,"Tea, Bread",Alfajores,0.002,0.06,1.655,"Rule 476: Tea, Bread -> Alfajores"
+477,"Alfajores, Coffee",Brownie,0.001,0.075,1.88,"Rule 477: Alfajores, Coffee -> Brownie"
+478,"Alfajores, Brownie",Coffee,0.001,0.519,1.084,"Rule 478: Alfajores, Brownie -> Coffee"
+479,"Brownie, Coffee",Alfajores,0.001,0.075,2.071,"Rule 479: Brownie, Coffee -> Alfajores"
+480,"Alfajores, Cake",Coffee,0.002,0.564,1.179,"Rule 480: Alfajores, Cake -> Coffee"
+481,"Alfajores, Coffee",Cake,0.002,0.118,1.139,"Rule 481: Alfajores, Coffee -> Cake"
+482,"Cake, Coffee",Alfajores,0.002,0.042,1.168,"Rule 482: Cake, Coffee -> Alfajores"
+483,"Alfajores, Cookies",Coffee,0.002,0.652,1.363,"Rule 483: Alfajores, Cookies -> Coffee"
+484,"Alfajores, Coffee",Cookies,0.002,0.081,1.482,"Rule 484: Alfajores, Coffee -> Cookies"
+485,"Cookies, Coffee",Alfajores,0.002,0.056,1.546,"Rule 485: Cookies, Coffee -> Alfajores"
+486,"Alfajores, Hot chocolate",Coffee,0.002,0.559,1.168,"Rule 486: Alfajores, Hot chocolate -> Coffee"
+487,"Alfajores, Coffee",Hot chocolate,0.002,0.102,1.751,"Rule 487: Alfajores, Coffee -> Hot chocolate"
+488,"Hot chocolate, Coffee",Alfajores,0.002,0.068,1.867,"Rule 488: Hot chocolate, Coffee -> Alfajores"
+489,"Alfajores, Juice",Coffee,0.002,0.586,1.225,"Rule 489: Alfajores, Juice -> Coffee"
+490,"Alfajores, Coffee",Juice,0.002,0.091,2.37,"Rule 490: Alfajores, Coffee -> Juice"
+491,"Juice, Coffee",Alfajores,0.002,0.087,2.398,"Rule 491: Juice, Coffee -> Alfajores"
+492,"Alfajores, Medialuna",Coffee,0.001,0.467,0.975,"Rule 492: Alfajores, Medialuna -> Coffee"
+493,"Alfajores, Coffee",Medialuna,0.001,0.075,1.218,"Rule 493: Alfajores, Coffee -> Medialuna"
+494,"Medialuna, Coffee",Alfajores,0.001,0.042,1.157,"Rule 494: Medialuna, Coffee -> Alfajores"
+495,"Alfajores, Pastry",Coffee,0.002,0.516,1.079,"Rule 495: Alfajores, Pastry -> Coffee"
+496,"Alfajores, Coffee",Pastry,0.002,0.086,0.999,"Rule 496: Alfajores, Coffee -> Pastry"
+497,"Pastry, Coffee",Alfajores,0.002,0.036,0.978,"Rule 497: Pastry, Coffee -> Alfajores"
+498,"Alfajores, Sandwich",Coffee,0.001,0.56,1.17,"Rule 498: Alfajores, Sandwich -> Coffee"
+499,"Alfajores, Coffee",Sandwich,0.001,0.075,1.048,"Rule 499: Alfajores, Coffee -> Sandwich"
+500,"Sandwich, Coffee",Alfajores,0.001,0.039,1.064,"Rule 500: Sandwich, Coffee -> Alfajores"
+501,"Alfajores, Tea",Coffee,0.003,0.453,0.947,"Rule 501: Alfajores, Tea -> Coffee"
+502,"Alfajores, Coffee",Tea,0.003,0.156,1.093,"Rule 502: Alfajores, Coffee -> Tea"
+503,"Tea, Coffee",Alfajores,0.003,0.061,1.69,"Rule 503: Tea, Coffee -> Alfajores"
+504,"Alfajores, Cookies",Juice,0.001,0.435,11.273,"Rule 504: Alfajores, Cookies -> Juice"
+505,"Alfajores, Juice",Cookies,0.001,0.345,6.337,"Rule 505: Alfajores, Juice -> Cookies"
+506,"Cookies, Juice",Alfajores,0.001,0.172,4.743,"Rule 506: Cookies, Juice -> Alfajores"
+507,"Alfajores, Hot chocolate",Tea,0.001,0.324,2.268,"Rule 507: Alfajores, Hot chocolate -> Tea"
+508,"Alfajores, Tea",Hot chocolate,0.001,0.172,2.947,"Rule 508: Alfajores, Tea -> Hot chocolate"
+509,"Hot chocolate, Tea",Alfajores,0.001,0.145,3.982,"Rule 509: Hot chocolate, Tea -> Alfajores"
+510,"Alfajores, Tea",Pastry,0.001,0.156,1.814,"Rule 510: Alfajores, Tea -> Pastry"
+511,"Alfajores, Pastry",Tea,0.001,0.323,2.261,"Rule 511: Alfajores, Pastry -> Tea"
+512,"Tea, Pastry",Alfajores,0.001,0.11,3.023,"Rule 512: Tea, Pastry -> Alfajores"
+513,"Brownie, Bread",Coffee,0.004,0.353,0.738,"Rule 513: Brownie, Bread -> Coffee"
+514,"Brownie, Coffee",Bread,0.004,0.194,0.591,"Rule 514: Brownie, Coffee -> Bread"
+515,"Bread, Coffee",Brownie,0.004,0.042,1.055,"Rule 515: Bread, Coffee -> Brownie"
+516,"Brownie, Tea",Bread,0.002,0.25,0.764,"Rule 516: Brownie, Tea -> Bread"
+517,"Brownie, Bread",Tea,0.002,0.157,1.1,"Rule 517: Brownie, Bread -> Tea"
+518,"Tea, Bread",Brownie,0.002,0.06,1.502,"Rule 518: Tea, Bread -> Brownie"
+519,"Cake, Bread",Coffee,0.01,0.43,0.898,"Rule 519: Cake, Bread -> Coffee"
+520,"Cake, Coffee",Bread,0.01,0.183,0.56,"Rule 520: Cake, Coffee -> Bread"
+521,"Bread, Coffee",Cake,0.01,0.112,1.074,"Rule 521: Bread, Coffee -> Cake"
+522,"Cake, Cookies",Bread,0.002,0.217,0.664,"Rule 522: Cake, Cookies -> Bread"
+523,"Cake, Bread",Cookies,0.002,0.068,1.247,"Rule 523: Cake, Bread -> Cookies"
+524,"Cookies, Bread",Cake,0.002,0.109,1.054,"Rule 524: Cookies, Bread -> Cake"
+525,"Cake, Bread",Hot chocolate,0.002,0.077,1.319,"Rule 525: Cake, Bread -> Hot chocolate"
+526,"Hot chocolate, Bread",Cake,0.002,0.134,1.289,"Rule 526: Hot chocolate, Bread -> Cake"
+527,"Cake, Bread",Jammie Dodgers,0.002,0.068,5.139,"Rule 527: Cake, Bread -> Jammie Dodgers"
+528,"Cake, Jammie Dodgers",Bread,0.002,0.517,1.581,"Rule 528: Cake, Jammie Dodgers -> Bread"
+529,"Bread, Jammie Dodgers",Cake,0.002,0.341,3.282,"Rule 529: Bread, Jammie Dodgers -> Cake"
+530,"Cake, Bread",Juice,0.002,0.077,1.995,"Rule 530: Cake, Bread -> Juice"
+531,"Cake, Juice",Bread,0.002,0.254,0.775,"Rule 531: Cake, Juice -> Bread"
+532,"Bread, Juice",Cake,0.002,0.243,2.338,"Rule 532: Bread, Juice -> Cake"
+533,"Cake, Bread",Pastry,0.002,0.068,0.788,"Rule 533: Cake, Bread -> Pastry"
+534,"Cake, Pastry",Bread,0.002,0.306,0.935,"Rule 534: Cake, Pastry -> Bread"
+535,"Bread, Pastry",Cake,0.002,0.054,0.523,"Rule 535: Bread, Pastry -> Cake"
+536,"Cake, Bread",Sandwich,0.002,0.072,1.008,"Rule 536: Cake, Bread -> Sandwich"
+537,"Cake, Sandwich",Bread,0.002,0.246,0.752,"Rule 537: Cake, Sandwich -> Bread"
+538,"Bread, Sandwich",Cake,0.002,0.099,0.957,"Rule 538: Bread, Sandwich -> Cake"
+539,"Cake, Bread",Soup,0.001,0.045,1.314,"Rule 539: Cake, Bread -> Soup"
+540,"Cake, Soup",Bread,0.001,0.238,0.728,"Rule 540: Cake, Soup -> Bread"
+541,"Bread, Soup",Cake,0.001,0.161,1.553,"Rule 541: Bread, Soup -> Cake"
+542,"Cake, Tea",Bread,0.005,0.204,0.625,"Rule 542: Cake, Tea -> Bread"
+543,"Cake, Bread",Tea,0.005,0.208,1.459,"Rule 543: Cake, Bread -> Tea"
+544,"Tea, Bread",Cake,0.005,0.173,1.665,"Rule 544: Tea, Bread -> Cake"
+545,"Cookies, Bread",Coffee,0.005,0.365,0.763,"Rule 545: Cookies, Bread -> Coffee"
+546,"Cookies, Coffee",Bread,0.005,0.187,0.572,"Rule 546: Cookies, Coffee -> Bread"
+547,"Bread, Coffee",Cookies,0.005,0.059,1.078,"Rule 547: Bread, Coffee -> Cookies"
+548,"Farm House, Bread",Coffee,0.001,0.298,0.623,"Rule 548: Farm House, Bread -> Coffee"
+549,"Farm House, Coffee",Bread,0.001,0.222,0.679,"Rule 549: Farm House, Coffee -> Bread"
+550,"Frittata, Bread",Coffee,0.001,0.52,1.087,"Rule 550: Frittata, Bread -> Coffee"
+551,"Frittata, Coffee",Bread,0.001,0.302,0.924,"Rule 551: Frittata, Coffee -> Bread"
+552,"Bread, Coffee",Frittata,0.001,0.015,1.783,"Rule 552: Bread, Coffee -> Frittata"
+553,"Hearty & Seasonal, Bread",Coffee,0.001,0.48,1.003,"Rule 553: Hearty & Seasonal, Bread -> Coffee"
+554,"Hearty & Seasonal, Coffee",Bread,0.001,0.222,0.679,"Rule 554: Hearty & Seasonal, Coffee -> Bread"
+555,"Bread, Coffee",Hearty & Seasonal,0.001,0.014,1.333,"Rule 555: Bread, Coffee -> Hearty & Seasonal"
+556,"Hot chocolate, Bread",Coffee,0.006,0.457,0.955,"Rule 556: Hot chocolate, Bread -> Coffee"
+557,"Hot chocolate, Coffee",Bread,0.006,0.207,0.633,"Rule 557: Hot chocolate, Coffee -> Bread"
+558,"Bread, Coffee",Hot chocolate,0.006,0.068,1.167,"Rule 558: Bread, Coffee -> Hot chocolate"
+559,"Bread, Coffee",Jam,0.001,0.013,0.86,"Rule 559: Bread, Coffee -> Jam"
+560,"Jam, Coffee",Bread,0.001,0.282,0.862,"Rule 560: Jam, Coffee -> Bread"
+561,"Bread, Jammie Dodgers",Coffee,0.002,0.341,0.713,"Rule 561: Bread, Jammie Dodgers -> Coffee"
+562,"Bread, Coffee",Jammie Dodgers,0.002,0.018,1.333,"Rule 562: Bread, Coffee -> Jammie Dodgers"
+563,"Jammie Dodgers, Coffee",Bread,0.002,0.238,0.728,"Rule 563: Jammie Dodgers, Coffee -> Bread"
+564,"Bread, Juice",Coffee,0.003,0.4,0.836,"Rule 564: Bread, Juice -> Coffee"
+565,"Bread, Coffee",Juice,0.003,0.033,0.852,"Rule 565: Bread, Coffee -> Juice"
+566,"Keeping It Local, Bread",Coffee,0.001,0.571,1.194,"Rule 566: Keeping It Local, Bread -> Coffee"
+567,"Keeping It Local, Coffee",Bread,0.001,0.235,0.719,"Rule 567: Keeping It Local, Coffee -> Bread"
+568,"Bread, Coffee",Keeping It Local,0.001,0.014,2.116,"Rule 568: Bread, Coffee -> Keeping It Local"
+569,"Bread, Medialuna",Coffee,0.007,0.4,0.836,"Rule 569: Bread, Medialuna -> Coffee"
+570,"Bread, Coffee",Medialuna,0.007,0.075,1.215,"Rule 570: Bread, Coffee -> Medialuna"
+571,"Medialuna, Coffee",Bread,0.007,0.192,0.587,"Rule 571: Medialuna, Coffee -> Bread"
+572,"Mineral water, Bread",Coffee,0.001,0.433,0.906,"Rule 572: Mineral water, Bread -> Coffee"
+573,"Mineral water, Coffee",Bread,0.001,0.245,0.75,"Rule 573: Mineral water, Coffee -> Bread"
+574,"Bread, Coffee",Mineral water,0.001,0.015,1.078,"Rule 574: Bread, Coffee -> Mineral water"
+575,"Muffin, Bread",Coffee,0.002,0.299,0.624,"Rule 575: Muffin, Bread -> Coffee"
+576,"Bread, Coffee",Muffin,0.002,0.027,0.702,"Rule 576: Bread, Coffee -> Muffin"
+577,"Bread, Pastry",Coffee,0.011,0.384,0.803,"Rule 577: Bread, Pastry -> Coffee"
+578,"Bread, Coffee",Pastry,0.011,0.124,1.445,"Rule 578: Bread, Coffee -> Pastry"
+579,"Pastry, Coffee",Bread,0.011,0.236,0.72,"Rule 579: Pastry, Coffee -> Bread"
+580,"Bread, Salad",Coffee,0.001,0.526,1.1,"Rule 580: Bread, Salad -> Coffee"
+581,"Bread, Coffee",Salad,0.001,0.012,1.122,"Rule 581: Bread, Coffee -> Salad"
+582,"Bread, Sandwich",Coffee,0.007,0.422,0.883,"Rule 582: Bread, Sandwich -> Coffee"
+583,"Bread, Coffee",Sandwich,0.007,0.08,1.111,"Rule 583: Bread, Coffee -> Sandwich"
+584,"Sandwich, Coffee",Bread,0.007,0.188,0.574,"Rule 584: Sandwich, Coffee -> Bread"
+585,"Scandinavian, Coffee",Bread,0.001,0.261,0.797,"Rule 585: Scandinavian, Coffee -> Bread"
+586,"Scone, Bread",Coffee,0.003,0.384,0.802,"Rule 586: Scone, Bread -> Coffee"
+587,"Scone, Coffee",Bread,0.003,0.193,0.59,"Rule 587: Scone, Coffee -> Bread"
+588,"Bread, Coffee",Scone,0.003,0.039,1.121,"Rule 588: Bread, Coffee -> Scone"
+589,"Bread, Smoothies",Coffee,0.001,0.522,1.09,"Rule 589: Bread, Smoothies -> Coffee"
+590,"Bread, Coffee",Smoothies,0.001,0.014,1.731,"Rule 590: Bread, Coffee -> Smoothies"
+591,"Smoothies, Coffee",Bread,0.001,0.316,0.965,"Rule 591: Smoothies, Coffee -> Bread"
+592,"Bread, Soup",Coffee,0.002,0.339,0.708,"Rule 592: Bread, Soup -> Coffee"
+593,"Bread, Coffee",Soup,0.002,0.025,0.716,"Rule 593: Bread, Coffee -> Soup"
+594,"Bread, Spanish Brunch",Coffee,0.002,0.511,1.068,"Rule 594: Bread, Spanish Brunch -> Coffee"
+595,"Bread, Coffee",Spanish Brunch,0.002,0.027,1.485,"Rule 595: Bread, Coffee -> Spanish Brunch"
+596,"Spanish Brunch, Coffee",Bread,0.002,0.223,0.682,"Rule 596: Spanish Brunch, Coffee -> Bread"
+597,"Tea, Bread",Coffee,0.007,0.263,0.55,"Rule 597: Tea, Bread -> Coffee"
+598,"Bread, Coffee",Tea,0.007,0.082,0.576,"Rule 598: Bread, Coffee -> Tea"
+599,"Tiffin, Bread",Coffee,0.002,0.478,1.0,"Rule 599: Tiffin, Bread -> Coffee"
+600,"Tiffin, Coffee",Bread,0.002,0.275,0.84,"Rule 600: Tiffin, Coffee -> Bread"
+601,"Bread, Coffee",Tiffin,0.002,0.026,1.674,"Rule 601: Bread, Coffee -> Tiffin"
+602,"Toast, Bread",Coffee,0.004,0.473,0.989,"Rule 602: Toast, Bread -> Coffee"
+603,"Bread, Coffee",Toast,0.004,0.041,1.223,"Rule 603: Bread, Coffee -> Toast"
+604,"Truffles, Bread",Coffee,0.002,0.362,0.756,"Rule 604: Truffles, Bread -> Coffee"
+605,"Truffles, Coffee",Bread,0.002,0.239,0.732,"Rule 605: Truffles, Coffee -> Bread"
+606,"Bread, Coffee",Truffles,0.002,0.02,0.984,"Rule 606: Bread, Coffee -> Truffles"
+607,"Hot chocolate, Cookies",Bread,0.001,0.246,0.751,"Rule 607: Hot chocolate, Cookies -> Bread"
+608,"Hot chocolate, Bread",Cookies,0.001,0.11,2.026,"Rule 608: Hot chocolate, Bread -> Cookies"
+609,"Cookies, Bread",Hot chocolate,0.001,0.102,1.752,"Rule 609: Cookies, Bread -> Hot chocolate"
+610,"Cookies, Bread",Juice,0.001,0.095,2.46,"Rule 610: Cookies, Bread -> Juice"
+611,"Cookies, Juice",Bread,0.001,0.224,0.685,"Rule 611: Cookies, Juice -> Bread"
+612,"Bread, Juice",Cookies,0.001,0.186,3.413,"Rule 612: Bread, Juice -> Cookies"
+613,"Cookies, Bread",Tea,0.001,0.095,0.665,"Rule 613: Cookies, Bread -> Tea"
+614,"Tea, Bread",Cookies,0.001,0.049,0.898,"Rule 614: Tea, Bread -> Cookies"
+615,"Hot chocolate, Bread",Medialuna,0.001,0.087,1.401,"Rule 615: Hot chocolate, Bread -> Medialuna"
+616,"Hot chocolate, Medialuna",Bread,0.001,0.244,0.747,"Rule 616: Hot chocolate, Medialuna -> Bread"
+617,"Bread, Medialuna",Hot chocolate,0.001,0.069,1.179,"Rule 617: Bread, Medialuna -> Hot chocolate"
+618,"Muffin, Hot chocolate",Bread,0.001,0.294,0.899,"Rule 618: Muffin, Hot chocolate -> Bread"
+619,"Muffin, Bread",Hot chocolate,0.001,0.13,2.227,"Rule 619: Muffin, Bread -> Hot chocolate"
+620,"Hot chocolate, Bread",Muffin,0.001,0.079,2.047,"Rule 620: Hot chocolate, Bread -> Muffin"
+621,"Hot chocolate, Bread",Pastry,0.002,0.118,1.372,"Rule 621: Hot chocolate, Bread -> Pastry"
+622,"Hot chocolate, Pastry",Bread,0.002,0.278,0.849,"Rule 622: Hot chocolate, Pastry -> Bread"
+623,"Bread, Pastry",Hot chocolate,0.002,0.054,0.932,"Rule 623: Bread, Pastry -> Hot chocolate"
+624,"Hot chocolate, Scone",Bread,0.001,0.393,1.201,"Rule 624: Hot chocolate, Scone -> Bread"
+625,"Hot chocolate, Bread",Scone,0.001,0.087,2.507,"Rule 625: Hot chocolate, Bread -> Scone"
+626,"Scone, Bread",Hot chocolate,0.001,0.128,2.193,"Rule 626: Scone, Bread -> Hot chocolate"
+627,"Hot chocolate, Tea",Bread,0.001,0.184,0.563,"Rule 627: Hot chocolate, Tea -> Bread"
+628,"Hot chocolate, Bread",Tea,0.001,0.11,0.773,"Rule 628: Hot chocolate, Bread -> Tea"
+629,"Tea, Bread",Hot chocolate,0.001,0.053,0.902,"Rule 629: Tea, Bread -> Hot chocolate"
+630,"Tea, Bread",Jammie Dodgers,0.001,0.038,2.846,"Rule 630: Tea, Bread -> Jammie Dodgers"
+631,"Tea, Jammie Dodgers",Bread,0.001,0.417,1.273,"Rule 631: Tea, Jammie Dodgers -> Bread"
+632,"Bread, Jammie Dodgers",Tea,0.001,0.227,1.593,"Rule 632: Bread, Jammie Dodgers -> Tea"
+633,"Bread, Juice",Sandwich,0.001,0.157,2.187,"Rule 633: Bread, Juice -> Sandwich"
+634,"Sandwich, Juice",Bread,0.001,0.2,0.611,"Rule 634: Sandwich, Juice -> Bread"
+635,"Bread, Sandwich",Juice,0.001,0.068,1.772,"Rule 635: Bread, Sandwich -> Juice"
+636,"Bread, Medialuna",Pastry,0.002,0.144,1.669,"Rule 636: Bread, Medialuna -> Pastry"
+637,"Bread, Pastry",Medialuna,0.002,0.083,1.348,"Rule 637: Bread, Pastry -> Medialuna"
+638,"Medialuna, Pastry",Bread,0.002,0.264,0.808,"Rule 638: Medialuna, Pastry -> Bread"
+639,"Tea, Bread",Medialuna,0.002,0.075,1.216,"Rule 639: Tea, Bread -> Medialuna"
+640,"Tea, Medialuna",Bread,0.002,0.26,0.794,"Rule 640: Tea, Medialuna -> Bread"
+641,"Bread, Medialuna",Tea,0.002,0.125,0.876,"Rule 641: Bread, Medialuna -> Tea"
+642,"Tea, Bread",Pastry,0.002,0.086,1.004,"Rule 642: Tea, Bread -> Pastry"
+643,"Tea, Pastry",Bread,0.002,0.253,0.772,"Rule 643: Tea, Pastry -> Bread"
+644,"Bread, Pastry",Tea,0.002,0.083,0.584,"Rule 644: Bread, Pastry -> Tea"
+645,"Bread, Sandwich",Soup,0.001,0.062,1.803,"Rule 645: Bread, Sandwich -> Soup"
+646,"Bread, Soup",Sandwich,0.001,0.161,2.245,"Rule 646: Bread, Soup -> Sandwich"
+647,"Sandwich, Soup",Bread,0.001,0.192,0.588,"Rule 647: Sandwich, Soup -> Bread"
+648,"Tea, Bread",Sandwich,0.003,0.098,1.36,"Rule 648: Tea, Bread -> Sandwich"
+649,"Tea, Sandwich",Bread,0.003,0.191,0.584,"Rule 649: Tea, Sandwich -> Bread"
+650,"Bread, Sandwich",Tea,0.003,0.161,1.132,"Rule 650: Bread, Sandwich -> Tea"
+651,"Tea, Bread",Scone,0.001,0.053,1.523,"Rule 651: Tea, Bread -> Scone"
+652,"Tea, Scone",Bread,0.001,0.177,0.542,"Rule 652: Tea, Scone -> Bread"
+653,"Scone, Bread",Tea,0.001,0.163,1.141,"Rule 653: Scone, Bread -> Tea"
+654,"Tea, Bread",Soup,0.002,0.056,1.637,"Rule 654: Tea, Bread -> Soup"
+655,"Tea, Soup",Bread,0.002,0.174,0.533,"Rule 655: Tea, Soup -> Bread"
+656,"Bread, Soup",Tea,0.002,0.242,1.696,"Rule 656: Bread, Soup -> Tea"
+657,"Tiffin, Tea",Bread,0.001,0.364,1.111,"Rule 657: Tiffin, Tea -> Bread"
+658,"Tiffin, Bread",Tea,0.001,0.261,1.829,"Rule 658: Tiffin, Bread -> Tea"
+659,"Tea, Bread",Tiffin,0.001,0.045,2.924,"Rule 659: Tea, Bread -> Tiffin"
+660,"Tea, Bread",Toast,0.001,0.038,1.119,"Rule 660: Tea, Bread -> Toast"
+661,"Tea, Toast",Bread,0.001,0.164,0.501,"Rule 661: Tea, Toast -> Bread"
+662,"Toast, Bread",Tea,0.001,0.135,0.947,"Rule 662: Toast, Bread -> Tea"
+663,"Brownie, Cake",Coffee,0.002,0.476,0.995,"Rule 663: Brownie, Cake -> Coffee"
+664,"Brownie, Coffee",Cake,0.002,0.108,1.035,"Rule 664: Brownie, Coffee -> Cake"
+665,"Cake, Coffee",Brownie,0.002,0.039,0.964,"Rule 665: Cake, Coffee -> Brownie"
+666,"Brownie, Cake",Tea,0.001,0.31,2.17,"Rule 666: Brownie, Cake -> Tea"
+667,"Brownie, Tea",Cake,0.001,0.203,1.956,"Rule 667: Brownie, Tea -> Cake"
+668,"Cake, Tea",Brownie,0.001,0.058,1.443,"Rule 668: Cake, Tea -> Brownie"
+669,"Brownie, Cookies",Coffee,0.002,0.625,1.306,"Rule 669: Brownie, Cookies -> Coffee"
+670,"Brownie, Coffee",Cookies,0.002,0.081,1.482,"Rule 670: Brownie, Coffee -> Cookies"
+671,"Cookies, Coffee",Brownie,0.002,0.056,1.403,"Rule 671: Cookies, Coffee -> Brownie"
+672,"Brownie, Hot chocolate",Coffee,0.002,0.59,1.233,"Rule 672: Brownie, Hot chocolate -> Coffee"
+673,"Brownie, Coffee",Hot chocolate,0.002,0.124,2.12,"Rule 673: Brownie, Coffee -> Hot chocolate"
+674,"Hot chocolate, Coffee",Brownie,0.002,0.082,2.051,"Rule 674: Hot chocolate, Coffee -> Brownie"
+675,"Brownie, Juice",Coffee,0.001,0.583,1.219,"Rule 675: Brownie, Juice -> Coffee"
+676,"Brownie, Coffee",Juice,0.001,0.075,1.952,"Rule 676: Brownie, Coffee -> Juice"
+677,"Juice, Coffee",Brownie,0.001,0.072,1.793,"Rule 677: Juice, Coffee -> Brownie"
+678,"Brownie, Medialuna",Coffee,0.001,0.526,1.1,"Rule 678: Brownie, Medialuna -> Coffee"
+679,"Brownie, Coffee",Medialuna,0.001,0.054,0.87,"Rule 679: Brownie, Coffee -> Medialuna"
+680,"Medialuna, Coffee",Brownie,0.001,0.03,0.75,"Rule 680: Medialuna, Coffee -> Brownie"
+681,"Brownie, Sandwich",Coffee,0.001,0.636,1.33,"Rule 681: Brownie, Sandwich -> Coffee"
+682,"Brownie, Coffee",Sandwich,0.001,0.075,1.048,"Rule 682: Brownie, Coffee -> Sandwich"
+683,"Sandwich, Coffee",Brownie,0.001,0.039,0.966,"Rule 683: Sandwich, Coffee -> Brownie"
+684,"Brownie, Tea",Coffee,0.002,0.328,0.686,"Rule 684: Brownie, Tea -> Coffee"
+685,"Brownie, Coffee",Tea,0.002,0.113,0.791,"Rule 685: Brownie, Coffee -> Tea"
+686,"Tea, Coffee",Brownie,0.002,0.044,1.111,"Rule 686: Tea, Coffee -> Brownie"
+687,"Cake, Cookies",Coffee,0.004,0.58,1.212,"Rule 687: Cake, Cookies -> Coffee"
+688,"Cake, Coffee",Cookies,0.004,0.077,1.419,"Rule 688: Cake, Coffee -> Cookies"
+689,"Cookies, Coffee",Cake,0.004,0.15,1.442,"Rule 689: Cookies, Coffee -> Cake"
+690,"Cake, Hot chocolate",Coffee,0.007,0.602,1.258,"Rule 690: Cake, Hot chocolate -> Coffee"
+691,"Cake, Coffee",Hot chocolate,0.007,0.125,2.151,"Rule 691: Cake, Coffee -> Hot chocolate"
+692,"Hot chocolate, Coffee",Cake,0.007,0.232,2.235,"Rule 692: Hot chocolate, Coffee -> Cake"
+693,"Cake, Jammie Dodgers",Coffee,0.001,0.345,0.721,"Rule 693: Cake, Jammie Dodgers -> Coffee"
+694,"Cake, Coffee",Jammie Dodgers,0.001,0.019,1.462,"Rule 694: Cake, Coffee -> Jammie Dodgers"
+695,"Jammie Dodgers, Coffee",Cake,0.001,0.159,1.528,"Rule 695: Jammie Dodgers, Coffee -> Cake"
+696,"Cake, Juice",Coffee,0.004,0.552,1.154,"Rule 696: Cake, Juice -> Coffee"
+697,"Cake, Coffee",Juice,0.004,0.071,1.852,"Rule 697: Cake, Coffee -> Juice"
+698,"Juice, Coffee",Cake,0.004,0.19,1.827,"Rule 698: Juice, Coffee -> Cake"
+699,"Cake, Medialuna",Coffee,0.003,0.686,1.433,"Rule 699: Cake, Medialuna -> Coffee"
+700,"Cake, Coffee",Medialuna,0.003,0.046,0.75,"Rule 700: Cake, Coffee -> Medialuna"
+701,"Medialuna, Coffee",Cake,0.003,0.072,0.694,"Rule 701: Medialuna, Coffee -> Cake"
+702,"Muffin, Cake",Coffee,0.002,0.478,1.0,"Rule 702: Muffin, Cake -> Coffee"
+703,"Cake, Coffee",Muffin,0.002,0.042,1.104,"Rule 703: Cake, Coffee -> Muffin"
+704,"Muffin, Coffee",Cake,0.002,0.124,1.19,"Rule 704: Muffin, Coffee -> Cake"
+705,"Cake, Pastry",Coffee,0.003,0.531,1.109,"Rule 705: Cake, Pastry -> Coffee"
+706,"Cake, Coffee",Pastry,0.003,0.05,0.583,"Rule 706: Cake, Coffee -> Pastry"
+707,"Pastry, Coffee",Cake,0.003,0.058,0.556,"Rule 707: Pastry, Coffee -> Cake"
+708,"Cake, Salad",Coffee,0.001,0.769,1.608,"Rule 708: Cake, Salad -> Coffee"
+709,"Cake, Coffee",Salad,0.001,0.019,1.845,"Rule 709: Cake, Coffee -> Salad"
+710,"Salad, Coffee",Cake,0.001,0.161,1.553,"Rule 710: Salad, Coffee -> Cake"
+711,"Cake, Sandwich",Coffee,0.005,0.677,1.415,"Rule 711: Cake, Sandwich -> Coffee"
+712,"Cake, Coffee",Sandwich,0.005,0.085,1.182,"Rule 712: Cake, Coffee -> Sandwich"
+713,"Sandwich, Coffee",Cake,0.005,0.122,1.17,"Rule 713: Sandwich, Coffee -> Cake"
+714,"Cake, Scone",Coffee,0.003,0.6,1.254,"Rule 714: Cake, Scone -> Coffee"
+715,"Cake, Coffee",Scone,0.003,0.052,1.509,"Rule 715: Cake, Coffee -> Scone"
+716,"Scone, Coffee",Cake,0.003,0.158,1.52,"Rule 716: Scone, Coffee -> Cake"
+717,"Cake, Smoothies",Coffee,0.001,0.667,1.393,"Rule 717: Cake, Smoothies -> Coffee"
+718,"Cake, Coffee",Smoothies,0.001,0.019,2.373,"Rule 718: Cake, Coffee -> Smoothies"
+719,"Smoothies, Coffee",Cake,0.001,0.263,2.534,"Rule 719: Smoothies, Coffee -> Cake"
+720,"Cake, Soup",Coffee,0.002,0.548,1.145,"Rule 720: Cake, Soup -> Coffee"
+721,"Cake, Coffee",Soup,0.002,0.044,1.289,"Rule 721: Cake, Coffee -> Soup"
+722,"Soup, Coffee",Cake,0.002,0.153,1.476,"Rule 722: Soup, Coffee -> Cake"
+723,"Cake, Spanish Brunch",Coffee,0.001,0.545,1.14,"Rule 723: Cake, Spanish Brunch -> Coffee"
+724,"Cake, Coffee",Spanish Brunch,0.001,0.023,1.275,"Rule 724: Cake, Coffee -> Spanish Brunch"
+725,"Spanish Brunch, Coffee",Cake,0.001,0.117,1.122,"Rule 725: Spanish Brunch, Coffee -> Cake"
+726,"Cake, Tea",Coffee,0.01,0.422,0.882,"Rule 726: Cake, Tea -> Coffee"
+727,"Cake, Coffee",Tea,0.01,0.183,1.286,"Rule 727: Cake, Coffee -> Tea"
+728,"Tea, Coffee",Cake,0.01,0.201,1.938,"Rule 728: Tea, Coffee -> Cake"
+729,"Tiffin, Cake",Coffee,0.002,0.682,1.425,"Rule 729: Tiffin, Cake -> Coffee"
+730,"Cake, Coffee",Tiffin,0.002,0.029,1.877,"Rule 730: Cake, Coffee -> Tiffin"
+731,"Tiffin, Coffee",Cake,0.002,0.188,1.805,"Rule 731: Tiffin, Coffee -> Cake"
+732,"Cake, Toast",Coffee,0.002,0.714,1.493,"Rule 732: Cake, Toast -> Coffee"
+733,"Cake, Coffee",Toast,0.002,0.029,0.862,"Rule 733: Cake, Coffee -> Toast"
+734,"Toast, Coffee",Cake,0.002,0.067,0.645,"Rule 734: Toast, Coffee -> Cake"
+735,"Truffles, Cake",Coffee,0.001,0.4,0.836,"Rule 735: Truffles, Cake -> Coffee"
+736,"Truffles, Coffee",Cake,0.001,0.141,1.356,"Rule 736: Truffles, Coffee -> Cake"
+737,"Cake, Coffee",Truffles,0.001,0.019,0.952,"Rule 737: Cake, Coffee -> Truffles"
+738,"Cake, Vegan mincepie",Coffee,0.001,0.833,1.742,"Rule 738: Cake, Vegan mincepie -> Coffee"
+739,"Cake, Coffee",Vegan mincepie,0.001,0.019,3.514,"Rule 739: Cake, Coffee -> Vegan mincepie"
+740,"Vegan mincepie, Coffee",Cake,0.001,0.333,3.209,"Rule 740: Vegan mincepie, Coffee -> Cake"
+741,"Cake, Cookies",Juice,0.001,0.145,3.758,"Rule 741: Cake, Cookies -> Juice"
+742,"Cake, Juice",Cookies,0.001,0.149,2.743,"Rule 742: Cake, Juice -> Cookies"
+743,"Cookies, Juice",Cake,0.001,0.172,1.66,"Rule 743: Cookies, Juice -> Cake"
+744,"Cake, Cookies",Tea,0.001,0.188,1.321,"Rule 744: Cake, Cookies -> Tea"
+745,"Cake, Tea",Cookies,0.001,0.058,1.062,"Rule 745: Cake, Tea -> Cookies"
+746,"Cookies, Tea",Cake,0.001,0.14,1.346,"Rule 746: Cookies, Tea -> Cake"
+747,"Cake, Tea",Hot chocolate,0.002,0.084,1.448,"Rule 747: Cake, Tea -> Hot chocolate"
+748,"Cake, Hot chocolate",Tea,0.002,0.176,1.233,"Rule 748: Cake, Hot chocolate -> Tea"
+749,"Hot chocolate, Tea",Cake,0.002,0.25,2.407,"Rule 749: Hot chocolate, Tea -> Cake"
+750,"Cake, Tea",Juice,0.001,0.062,1.613,"Rule 750: Cake, Tea -> Juice"
+751,"Cake, Juice",Tea,0.001,0.209,1.465,"Rule 751: Cake, Juice -> Tea"
+752,"Tea, Juice",Cake,0.001,0.206,1.982,"Rule 752: Tea, Juice -> Cake"
+753,"Cake, Tea",Medialuna,0.001,0.053,0.863,"Rule 753: Cake, Tea -> Medialuna"
+754,"Cake, Medialuna",Tea,0.001,0.343,2.404,"Rule 754: Cake, Medialuna -> Tea"
+755,"Tea, Medialuna",Cake,0.001,0.156,1.5,"Rule 755: Tea, Medialuna -> Cake"
+756,"Muffin, Cake",Tea,0.001,0.261,1.829,"Rule 756: Muffin, Cake -> Tea"
+757,"Cake, Tea",Muffin,0.001,0.053,1.387,"Rule 757: Cake, Tea -> Muffin"
+758,"Muffin, Tea",Cake,0.001,0.194,1.863,"Rule 758: Muffin, Tea -> Cake"
+759,"Cake, Tea",Pastry,0.001,0.053,0.619,"Rule 759: Cake, Tea -> Pastry"
+760,"Cake, Pastry",Tea,0.001,0.245,1.717,"Rule 760: Cake, Pastry -> Tea"
+761,"Tea, Pastry",Cake,0.001,0.132,1.27,"Rule 761: Tea, Pastry -> Cake"
+762,"Cake, Sandwich",Soup,0.001,0.169,4.913,"Rule 762: Cake, Sandwich -> Soup"
+763,"Cake, Soup",Sandwich,0.001,0.262,3.645,"Rule 763: Cake, Soup -> Sandwich"
+764,"Sandwich, Soup",Cake,0.001,0.212,2.037,"Rule 764: Sandwich, Soup -> Cake"
+765,"Cake, Tea",Sandwich,0.001,0.062,0.866,"Rule 765: Cake, Tea -> Sandwich"
+766,"Cake, Sandwich",Tea,0.001,0.215,1.51,"Rule 766: Cake, Sandwich -> Tea"
+767,"Tea, Sandwich",Cake,0.001,0.103,0.991,"Rule 767: Tea, Sandwich -> Cake"
+768,"Cake, Scone",Tea,0.002,0.378,2.648,"Rule 768: Cake, Scone -> Tea"
+769,"Cake, Tea",Scone,0.002,0.076,2.187,"Rule 769: Cake, Tea -> Scone"
+770,"Scone, Tea",Cake,0.002,0.215,2.072,"Rule 770: Scone, Tea -> Cake"
+771,"Cake, Tea",Soup,0.002,0.08,2.322,"Rule 771: Cake, Tea -> Soup"
+772,"Cake, Soup",Tea,0.002,0.429,3.004,"Rule 772: Cake, Soup -> Tea"
+773,"Tea, Soup",Cake,0.002,0.209,2.015,"Rule 773: Tea, Soup -> Cake"
+774,"Sandwich, Coffee",Chicken Stew,0.001,0.028,2.125,"Rule 774: Sandwich, Coffee -> Chicken Stew"
+775,"Chicken Stew, Coffee",Sandwich,0.001,0.204,2.84,"Rule 775: Chicken Stew, Coffee -> Sandwich"
+776,"Sandwich, Chicken Stew",Coffee,0.001,0.526,1.1,"Rule 776: Sandwich, Chicken Stew -> Coffee"
+777,"Juice, Coffee",Coke,0.001,0.056,2.901,"Rule 777: Juice, Coffee -> Coke"
+778,"Coke, Coffee",Juice,0.001,0.18,4.676,"Rule 778: Coke, Coffee -> Juice"
+779,"Juice, Coke",Coffee,0.001,0.524,1.095,"Rule 779: Juice, Coke -> Coffee"
+780,"Sandwich, Coffee",Coke,0.002,0.052,2.7,"Rule 780: Sandwich, Coffee -> Coke"
+781,"Coke, Coffee",Sandwich,0.002,0.311,4.335,"Rule 781: Coke, Coffee -> Sandwich"
+782,"Sandwich, Coke",Coffee,0.002,0.388,0.81,"Rule 782: Sandwich, Coke -> Coffee"
+783,"Hot chocolate, Cookies",Coffee,0.004,0.614,1.283,"Rule 783: Hot chocolate, Cookies -> Coffee"
+784,"Hot chocolate, Coffee",Cookies,0.004,0.125,2.297,"Rule 784: Hot chocolate, Coffee -> Cookies"
+785,"Cookies, Coffee",Hot chocolate,0.004,0.131,2.247,"Rule 785: Cookies, Coffee -> Hot chocolate"
+786,"Cookies, Juice",Coffee,0.004,0.603,1.261,"Rule 786: Cookies, Juice -> Coffee"
+787,"Cookies, Coffee",Juice,0.004,0.131,3.399,"Rule 787: Cookies, Coffee -> Juice"
+788,"Juice, Coffee",Cookies,0.004,0.179,3.298,"Rule 788: Juice, Coffee -> Cookies"
+789,"Cookies, Medialuna",Coffee,0.002,0.667,1.393,"Rule 789: Cookies, Medialuna -> Coffee"
+790,"Cookies, Coffee",Medialuna,0.002,0.06,0.969,"Rule 790: Cookies, Coffee -> Medialuna"
+791,"Medialuna, Coffee",Cookies,0.002,0.048,0.883,"Rule 791: Medialuna, Coffee -> Cookies"
+792,"Cookies, Pastry",Coffee,0.002,0.607,1.269,"Rule 792: Cookies, Pastry -> Coffee"
+793,"Cookies, Coffee",Pastry,0.002,0.064,0.739,"Rule 793: Cookies, Coffee -> Pastry"
+794,"Pastry, Coffee",Cookies,0.002,0.038,0.694,"Rule 794: Pastry, Coffee -> Cookies"
+795,"Cookies, Sandwich",Coffee,0.002,0.593,1.239,"Rule 795: Cookies, Sandwich -> Coffee"
+796,"Cookies, Coffee",Sandwich,0.002,0.06,0.834,"Rule 796: Cookies, Coffee -> Sandwich"
+797,"Sandwich, Coffee",Cookies,0.002,0.044,0.812,"Rule 797: Sandwich, Coffee -> Cookies"
+798,"Cookies, Scone",Coffee,0.002,0.789,1.65,"Rule 798: Cookies, Scone -> Coffee"
+799,"Cookies, Coffee",Scone,0.002,0.056,1.626,"Rule 799: Cookies, Coffee -> Scone"
+800,"Scone, Coffee",Cookies,0.002,0.088,1.612,"Rule 800: Scone, Coffee -> Cookies"
+801,"Cookies, Tea",Coffee,0.004,0.398,0.832,"Rule 801: Cookies, Tea -> Coffee"
+802,"Cookies, Coffee",Tea,0.004,0.139,0.971,"Rule 802: Cookies, Coffee -> Tea"
+803,"Tea, Coffee",Cookies,0.004,0.078,1.441,"Rule 803: Tea, Coffee -> Cookies"
+804,"Cookies, Toast",Coffee,0.001,0.571,1.194,"Rule 804: Cookies, Toast -> Coffee"
+805,"Cookies, Coffee",Toast,0.001,0.045,1.338,"Rule 805: Cookies, Coffee -> Toast"
+806,"Toast, Coffee",Cookies,0.001,0.054,0.984,"Rule 806: Toast, Coffee -> Cookies"
+807,"Extra Salami or Feta, Salad",Coffee,0.001,0.875,1.829,"Rule 807: Extra Salami or Feta, Salad -> Coffee"
+808,"Extra Salami or Feta, Coffee",Salad,0.001,0.452,43.172,"Rule 808: Extra Salami or Feta, Coffee -> Salad"
+809,"Salad, Coffee",Extra Salami or Feta,0.001,0.226,56.238,"Rule 809: Salad, Coffee -> Extra Salami or Feta"
+810,"Farm House, Medialuna",Coffee,0.001,0.545,1.14,"Rule 810: Farm House, Medialuna -> Coffee"
+811,"Farm House, Coffee",Medialuna,0.001,0.19,3.081,"Rule 811: Farm House, Coffee -> Medialuna"
+812,"Medialuna, Coffee",Farm House,0.001,0.036,0.919,"Rule 812: Medialuna, Coffee -> Farm House"
+813,"Farm House, Pastry",Coffee,0.001,0.385,0.804,"Rule 813: Farm House, Pastry -> Coffee"
+814,"Farm House, Coffee",Pastry,0.001,0.159,1.843,"Rule 814: Farm House, Coffee -> Pastry"
+815,"Pastry, Coffee",Farm House,0.001,0.022,0.567,"Rule 815: Pastry, Coffee -> Farm House"
+816,"Hearty & Seasonal, Sandwich",Coffee,0.001,0.857,1.792,"Rule 816: Hearty & Seasonal, Sandwich -> Coffee"
+817,"Hearty & Seasonal, Coffee",Sandwich,0.001,0.222,3.093,"Rule 817: Hearty & Seasonal, Coffee -> Sandwich"
+818,"Sandwich, Coffee",Hearty & Seasonal,0.001,0.033,3.137,"Rule 818: Sandwich, Coffee -> Hearty & Seasonal"
+819,"Hot chocolate, Juice",Coffee,0.001,0.571,1.194,"Rule 819: Hot chocolate, Juice -> Coffee"
+820,"Hot chocolate, Coffee",Juice,0.001,0.043,1.111,"Rule 820: Hot chocolate, Coffee -> Juice"
+821,"Juice, Coffee",Hot chocolate,0.001,0.062,1.055,"Rule 821: Juice, Coffee -> Hot chocolate"
+822,"Hot chocolate, Medialuna",Coffee,0.003,0.644,1.347,"Rule 822: Hot chocolate, Medialuna -> Coffee"
+823,"Hot chocolate, Coffee",Medialuna,0.003,0.104,1.676,"Rule 823: Hot chocolate, Coffee -> Medialuna"
+824,"Medialuna, Coffee",Hot chocolate,0.003,0.087,1.493,"Rule 824: Medialuna, Coffee -> Hot chocolate"
+825,"Muffin, Hot chocolate",Coffee,0.002,0.529,1.107,"Rule 825: Muffin, Hot chocolate -> Coffee"
+826,"Muffin, Coffee",Hot chocolate,0.002,0.101,1.734,"Rule 826: Muffin, Coffee -> Hot chocolate"
+827,"Hot chocolate, Coffee",Muffin,0.002,0.064,1.671,"Rule 827: Hot chocolate, Coffee -> Muffin"
+828,"Hot chocolate, Pastry",Coffee,0.004,0.667,1.393,"Rule 828: Hot chocolate, Pastry -> Coffee"
+829,"Hot chocolate, Coffee",Pastry,0.004,0.129,1.493,"Rule 829: Hot chocolate, Coffee -> Pastry"
+830,"Pastry, Coffee",Hot chocolate,0.004,0.08,1.372,"Rule 830: Pastry, Coffee -> Hot chocolate"
+831,"Hot chocolate, Sandwich",Coffee,0.003,0.571,1.194,"Rule 831: Hot chocolate, Sandwich -> Coffee"
+832,"Hot chocolate, Coffee",Sandwich,0.003,0.086,1.193,"Rule 832: Hot chocolate, Coffee -> Sandwich"
+833,"Sandwich, Coffee",Hot chocolate,0.003,0.066,1.137,"Rule 833: Sandwich, Coffee -> Hot chocolate"
+834,"Hot chocolate, Scone",Coffee,0.002,0.607,1.269,"Rule 834: Hot chocolate, Scone -> Coffee"
+835,"Hot chocolate, Coffee",Scone,0.002,0.061,1.757,"Rule 835: Hot chocolate, Coffee -> Scone"
+836,"Scone, Coffee",Hot chocolate,0.002,0.099,1.704,"Rule 836: Scone, Coffee -> Hot chocolate"
+837,"Hot chocolate, Tea",Coffee,0.002,0.25,0.523,"Rule 837: Hot chocolate, Tea -> Coffee"
+838,"Tea, Coffee",Hot chocolate,0.002,0.04,0.69,"Rule 838: Tea, Coffee -> Hot chocolate"
+839,"Hot chocolate, Toast",Coffee,0.001,0.483,1.009,"Rule 839: Hot chocolate, Toast -> Coffee"
+840,"Hot chocolate, Coffee",Toast,0.001,0.05,1.488,"Rule 840: Hot chocolate, Coffee -> Toast"
+841,"Toast, Coffee",Hot chocolate,0.001,0.062,1.072,"Rule 841: Toast, Coffee -> Hot chocolate"
+842,"Juice, Jammie Dodgers",Coffee,0.001,0.65,1.359,"Rule 842: Juice, Jammie Dodgers -> Coffee"
+843,"Juice, Coffee",Jammie Dodgers,0.001,0.067,5.047,"Rule 843: Juice, Coffee -> Jammie Dodgers"
+844,"Jammie Dodgers, Coffee",Juice,0.001,0.206,5.35,"Rule 844: Jammie Dodgers, Coffee -> Juice"
+845,"Tea, Jammie Dodgers",Coffee,0.001,0.458,0.958,"Rule 845: Tea, Jammie Dodgers -> Coffee"
+846,"Tea, Coffee",Jammie Dodgers,0.001,0.023,1.764,"Rule 846: Tea, Coffee -> Jammie Dodgers"
+847,"Jammie Dodgers, Coffee",Tea,0.001,0.175,1.224,"Rule 847: Jammie Dodgers, Coffee -> Tea"
+848,"Medialuna, Juice",Coffee,0.001,0.55,1.15,"Rule 848: Medialuna, Juice -> Coffee"
+849,"Juice, Coffee",Medialuna,0.001,0.056,0.913,"Rule 849: Juice, Coffee -> Medialuna"
+850,"Medialuna, Coffee",Juice,0.001,0.033,0.857,"Rule 850: Medialuna, Coffee -> Juice"
+851,"Muffin, Juice",Coffee,0.001,0.462,0.965,"Rule 851: Muffin, Juice -> Coffee"
+852,"Muffin, Coffee",Juice,0.001,0.067,1.748,"Rule 852: Muffin, Coffee -> Juice"
+853,"Juice, Coffee",Muffin,0.001,0.062,1.6,"Rule 853: Juice, Coffee -> Muffin"
+854,"Juice, Pastry",Coffee,0.002,0.773,1.615,"Rule 854: Juice, Pastry -> Coffee"
+855,"Juice, Coffee",Pastry,0.002,0.087,1.012,"Rule 855: Juice, Coffee -> Pastry"
+856,"Pastry, Coffee",Juice,0.002,0.038,0.98,"Rule 856: Pastry, Coffee -> Juice"
+857,"Sandwich, Juice",Coffee,0.003,0.473,0.988,"Rule 857: Sandwich, Juice -> Coffee"
+858,"Juice, Coffee",Sandwich,0.003,0.133,1.856,"Rule 858: Juice, Coffee -> Sandwich"
+859,"Sandwich, Coffee",Juice,0.003,0.072,1.862,"Rule 859: Sandwich, Coffee -> Juice"
+860,"Scone, Juice",Coffee,0.001,0.632,1.32,"Rule 860: Scone, Juice -> Coffee"
+861,"Scone, Coffee",Juice,0.001,0.07,1.82,"Rule 861: Scone, Coffee -> Juice"
+862,"Juice, Coffee",Scone,0.001,0.062,1.781,"Rule 862: Juice, Coffee -> Scone"
+863,"Juice, Spanish Brunch",Coffee,0.002,0.731,1.527,"Rule 863: Juice, Spanish Brunch -> Coffee"
+864,"Juice, Coffee",Spanish Brunch,0.002,0.097,5.361,"Rule 864: Juice, Coffee -> Spanish Brunch"
+865,"Spanish Brunch, Coffee",Juice,0.002,0.184,4.783,"Rule 865: Spanish Brunch, Coffee -> Juice"
+866,"Tea, Juice",Coffee,0.002,0.279,0.584,"Rule 866: Tea, Juice -> Coffee"
+867,"Tea, Coffee",Juice,0.002,0.04,1.044,"Rule 867: Tea, Coffee -> Juice"
+868,"Juice, Coffee",Tea,0.002,0.097,0.683,"Rule 868: Juice, Coffee -> Tea"
+869,"Toast, Juice",Coffee,0.002,0.682,1.425,"Rule 869: Toast, Juice -> Coffee"
+870,"Toast, Coffee",Juice,0.002,0.067,1.736,"Rule 870: Toast, Coffee -> Juice"
+871,"Juice, Coffee",Toast,0.002,0.077,2.289,"Rule 871: Juice, Coffee -> Toast"
+872,"Truffles, Juice",Coffee,0.001,0.579,1.21,"Rule 872: Truffles, Juice -> Coffee"
+873,"Truffles, Coffee",Juice,0.001,0.155,4.017,"Rule 873: Truffles, Coffee -> Juice"
+874,"Juice, Coffee",Truffles,0.001,0.056,2.781,"Rule 874: Juice, Coffee -> Truffles"
+875,"Keeping It Local, Tea",Coffee,0.001,0.647,1.352,"Rule 875: Keeping It Local, Tea -> Coffee"
+876,"Keeping It Local, Coffee",Tea,0.001,0.216,1.512,"Rule 876: Keeping It Local, Coffee -> Tea"
+877,"Tea, Coffee",Keeping It Local,0.001,0.023,3.501,"Rule 877: Tea, Coffee -> Keeping It Local"
+878,"Muffin, Medialuna",Coffee,0.001,0.579,1.21,"Rule 878: Muffin, Medialuna -> Coffee"
+879,"Muffin, Coffee",Medialuna,0.001,0.062,1.0,"Rule 879: Muffin, Coffee -> Medialuna"
+880,"Medialuna, Coffee",Muffin,0.001,0.033,0.859,"Rule 880: Medialuna, Coffee -> Muffin"
+881,"Medialuna, Pastry",Coffee,0.005,0.529,1.105,"Rule 881: Medialuna, Pastry -> Coffee"
+882,"Medialuna, Coffee",Pastry,0.005,0.138,1.604,"Rule 882: Medialuna, Coffee -> Pastry"
+883,"Pastry, Coffee",Medialuna,0.005,0.102,1.654,"Rule 883: Pastry, Coffee -> Medialuna"
+884,"Medialuna, Sandwich",Coffee,0.001,0.65,1.359,"Rule 884: Medialuna, Sandwich -> Coffee"
+885,"Sandwich, Coffee",Medialuna,0.001,0.036,0.581,"Rule 885: Sandwich, Coffee -> Medialuna"
+886,"Medialuna, Coffee",Sandwich,0.001,0.039,0.543,"Rule 886: Medialuna, Coffee -> Sandwich"
+887,"Tea, Medialuna",Coffee,0.004,0.455,0.95,"Rule 887: Tea, Medialuna -> Coffee"
+888,"Tea, Coffee",Medialuna,0.004,0.074,1.2,"Rule 888: Tea, Coffee -> Medialuna"
+889,"Medialuna, Coffee",Tea,0.004,0.105,0.737,"Rule 889: Medialuna, Coffee -> Tea"
+890,"Toast, Medialuna",Coffee,0.001,0.611,1.277,"Rule 890: Toast, Medialuna -> Coffee"
+891,"Toast, Coffee",Medialuna,0.001,0.049,0.794,"Rule 891: Toast, Coffee -> Medialuna"
+892,"Medialuna, Coffee",Toast,0.001,0.033,0.983,"Rule 892: Medialuna, Coffee -> Toast"
+893,"Mineral water, Sandwich",Coffee,0.001,0.452,0.944,"Rule 893: Mineral water, Sandwich -> Coffee"
+894,"Mineral water, Coffee",Sandwich,0.001,0.264,3.676,"Rule 894: Mineral water, Coffee -> Sandwich"
+895,"Sandwich, Coffee",Mineral water,0.001,0.039,2.731,"Rule 895: Sandwich, Coffee -> Mineral water"
+896,"Muffin, Pastry",Coffee,0.001,0.417,0.871,"Rule 896: Muffin, Pastry -> Coffee"
+897,"Muffin, Coffee",Pastry,0.001,0.056,0.652,"Rule 897: Muffin, Coffee -> Pastry"
+898,"Pastry, Coffee",Muffin,0.001,0.022,0.578,"Rule 898: Pastry, Coffee -> Muffin"
+899,"Muffin, Sandwich",Coffee,0.001,0.65,1.359,"Rule 899: Muffin, Sandwich -> Coffee"
+900,"Muffin, Coffee",Sandwich,0.001,0.073,1.016,"Rule 900: Muffin, Coffee -> Sandwich"
+901,"Sandwich, Coffee",Muffin,0.001,0.036,0.934,"Rule 901: Sandwich, Coffee -> Muffin"
+902,"Muffin, Tea",Coffee,0.003,0.435,0.91,"Rule 902: Muffin, Tea -> Coffee"
+903,"Muffin, Coffee",Tea,0.003,0.152,1.063,"Rule 903: Muffin, Coffee -> Tea"
+904,"Tea, Coffee",Muffin,0.003,0.057,1.487,"Rule 904: Tea, Coffee -> Muffin"
+905,"Scone, Pastry",Coffee,0.001,0.435,0.909,"Rule 905: Scone, Pastry -> Coffee"
+906,"Scone, Coffee",Pastry,0.001,0.058,0.679,"Rule 906: Scone, Coffee -> Pastry"
+907,"Pastry, Coffee",Scone,0.001,0.022,0.643,"Rule 907: Pastry, Coffee -> Scone"
+908,"Tea, Pastry",Coffee,0.005,0.484,1.011,"Rule 908: Tea, Pastry -> Coffee"
+909,"Tea, Coffee",Pastry,0.005,0.093,1.082,"Rule 909: Tea, Coffee -> Pastry"
+910,"Pastry, Coffee",Tea,0.005,0.098,0.685,"Rule 910: Pastry, Coffee -> Tea"
+911,"Toast, Pastry",Coffee,0.001,0.867,1.811,"Rule 911: Toast, Pastry -> Coffee"
+912,"Toast, Coffee",Pastry,0.001,0.058,0.674,"Rule 912: Toast, Coffee -> Pastry"
+913,"Pastry, Coffee",Toast,0.001,0.029,0.86,"Rule 913: Pastry, Coffee -> Toast"
+914,"Sandwich, Salad",Coffee,0.002,0.833,1.742,"Rule 914: Sandwich, Salad -> Coffee"
+915,"Sandwich, Coffee",Salad,0.002,0.041,3.961,"Rule 915: Sandwich, Coffee -> Salad"
+916,"Salad, Coffee",Sandwich,0.002,0.242,3.367,"Rule 916: Salad, Coffee -> Sandwich"
+917,"Sandwich, Coffee",Soup,0.004,0.094,2.727,"Rule 917: Sandwich, Coffee -> Soup"
+918,"Soup, Coffee",Sandwich,0.004,0.227,3.155,"Rule 918: Soup, Coffee -> Sandwich"
+919,"Sandwich, Soup",Coffee,0.004,0.654,1.367,"Rule 919: Sandwich, Soup -> Coffee"
+920,"Sandwich, Spanish Brunch",Coffee,0.001,0.667,1.393,"Rule 920: Sandwich, Spanish Brunch -> Coffee"
+921,"Sandwich, Coffee",Spanish Brunch,0.001,0.033,1.824,"Rule 921: Sandwich, Coffee -> Spanish Brunch"
+922,"Spanish Brunch, Coffee",Sandwich,0.001,0.117,1.621,"Rule 922: Spanish Brunch, Coffee -> Sandwich"
+923,"Tea, Sandwich",Coffee,0.005,0.375,0.784,"Rule 923: Tea, Sandwich -> Coffee"
+924,"Tea, Coffee",Sandwich,0.005,0.108,1.504,"Rule 924: Tea, Coffee -> Sandwich"
+925,"Sandwich, Coffee",Tea,0.005,0.141,0.988,"Rule 925: Sandwich, Coffee -> Tea"
+926,"Truffles, Sandwich",Coffee,0.002,0.556,1.161,"Rule 926: Truffles, Sandwich -> Coffee"
+927,"Truffles, Coffee",Sandwich,0.002,0.282,3.92,"Rule 927: Truffles, Coffee -> Sandwich"
+928,"Sandwich, Coffee",Truffles,0.002,0.055,2.723,"Rule 928: Sandwich, Coffee -> Truffles"
+929,"Scone, Tea",Coffee,0.003,0.405,0.847,"Rule 929: Scone, Tea -> Coffee"
+930,"Scone, Coffee",Tea,0.003,0.187,1.312,"Rule 930: Scone, Coffee -> Tea"
+931,"Tea, Coffee",Scone,0.003,0.068,1.962,"Rule 931: Tea, Coffee -> Scone"
+932,"Tea, Soup",Coffee,0.003,0.302,0.632,"Rule 932: Tea, Soup -> Coffee"
+933,"Tea, Coffee",Soup,0.003,0.055,1.599,"Rule 933: Tea, Coffee -> Soup"
+934,"Soup, Coffee",Tea,0.003,0.173,1.215,"Rule 934: Soup, Coffee -> Tea"
+935,"Tea, Spanish Brunch",Coffee,0.001,0.318,0.665,"Rule 935: Tea, Spanish Brunch -> Coffee"
+936,"Tea, Coffee",Spanish Brunch,0.001,0.03,1.632,"Rule 936: Tea, Coffee -> Spanish Brunch"
+937,"Spanish Brunch, Coffee",Tea,0.001,0.136,0.953,"Rule 937: Spanish Brunch, Coffee -> Tea"
+938,"Tiffin, Tea",Coffee,0.002,0.485,1.013,"Rule 938: Tiffin, Tea -> Coffee"
+939,"Tiffin, Coffee",Tea,0.002,0.2,1.402,"Rule 939: Tiffin, Coffee -> Tea"
+940,"Tea, Coffee",Tiffin,0.002,0.034,2.197,"Rule 940: Tea, Coffee -> Tiffin"
+941,"Toast, Tea",Coffee,0.003,0.508,1.062,"Rule 941: Toast, Tea -> Coffee"
+942,"Toast, Coffee",Tea,0.003,0.138,0.97,"Rule 942: Toast, Coffee -> Tea"
+943,"Tea, Coffee",Toast,0.003,0.066,1.955,"Rule 943: Tea, Coffee -> Toast"
+944,"Juice, Sandwich",Coke,0.001,0.182,9.352,"Rule 944: Juice, Sandwich -> Coke"
+945,"Sandwich, Coke",Juice,0.001,0.204,5.292,"Rule 945: Sandwich, Coke -> Juice"
+946,"Juice, Coke",Sandwich,0.001,0.476,6.627,"Rule 946: Juice, Coke -> Sandwich"
+947,"Cookies, Juice",Tea,0.002,0.259,1.813,"Rule 947: Cookies, Juice -> Tea"
+948,"Cookies, Tea",Juice,0.002,0.161,4.182,"Rule 948: Cookies, Tea -> Juice"
+949,"Tea, Juice",Cookies,0.002,0.221,4.054,"Rule 949: Tea, Juice -> Cookies"
+950,"Tea, Sandwich",Soup,0.002,0.11,3.202,"Rule 950: Tea, Sandwich -> Soup"
+951,"Tea, Soup",Sandwich,0.002,0.174,2.427,"Rule 951: Tea, Soup -> Sandwich"
+952,"Sandwich, Soup",Tea,0.002,0.288,2.022,"Rule 952: Sandwich, Soup -> Tea"
+953,"Cake, Tea, Bread",Coffee,0.001,0.283,0.591,"Rule 953: Cake, Tea, Bread -> Coffee"
+954,"Cake, Bread, Coffee",Tea,0.001,0.137,0.959,"Rule 954: Cake, Bread, Coffee -> Tea"
+955,"Tea, Bread, Coffee",Cake,0.001,0.186,1.788,"Rule 955: Tea, Bread, Coffee -> Cake"
+956,"Hot chocolate, Bread, Pastry",Coffee,0.001,0.667,1.393,"Rule 956: Hot chocolate, Bread, Pastry -> Coffee"
+957,"Hot chocolate, Bread, Coffee",Pastry,0.001,0.172,2.002,"Rule 957: Hot chocolate, Bread, Coffee -> Pastry"
+958,"Hot chocolate, Pastry, Coffee",Bread,0.001,0.278,0.849,"Rule 958: Hot chocolate, Pastry, Coffee -> Bread"
+959,"Bread, Pastry, Coffee",Hot chocolate,0.001,0.094,1.617,"Rule 959: Bread, Pastry, Coffee -> Hot chocolate"
+960,"Bread, Medialuna, Pastry",Coffee,0.001,0.478,1.0,"Rule 960: Bread, Medialuna, Pastry -> Coffee"
+961,"Bread, Medialuna, Coffee",Pastry,0.001,0.172,1.996,"Rule 961: Bread, Medialuna, Coffee -> Pastry"
+962,"Bread, Pastry, Coffee",Medialuna,0.001,0.104,1.679,"Rule 962: Bread, Pastry, Coffee -> Medialuna"
+963,"Medialuna, Pastry, Coffee",Bread,0.001,0.239,0.731,"Rule 963: Medialuna, Pastry, Coffee -> Bread"
+964,"Cake, Tea, Sandwich",Coffee,0.001,0.714,1.493,"Rule 964: Cake, Tea, Sandwich -> Coffee"
+965,"Cake, Tea, Coffee",Sandwich,0.001,0.105,1.465,"Rule 965: Cake, Tea, Coffee -> Sandwich"
+966,"Cake, Sandwich, Coffee",Tea,0.001,0.227,1.593,"Rule 966: Cake, Sandwich, Coffee -> Tea"
+967,"Tea, Sandwich, Coffee",Cake,0.001,0.196,1.888,"Rule 967: Tea, Sandwich, Coffee -> Cake"
