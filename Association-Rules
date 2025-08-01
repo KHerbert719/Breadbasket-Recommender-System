@@ -1,0 +1,80 @@
+import os
+
+import pandas as pd
+from mlxtend.frequent_patterns import apriori
+from mlxtend.frequent_patterns import association_rules
+
+from datetime import datetime
+
+# Load the CSV file into a Pandas DataFrame
+data = pd.read_csv('BreadBasket_DMS.csv')
+
+# Clean and Transform Data
+
+# Remove any leading/trailing spaces in item names
+data['Item'] = data['Item'].str.strip()
+
+# Remove rows where the item contains 'NONE' or 'Adjustment'
+data = data[~data['Item'].str.contains('NONE|Adjustment')]
+
+# Remove apostrophes from the 'Item' field
+data['Item'] = data['Item'].str.replace("'", "")
+
+# Create a pivot table to convert the dataset into a transaction format
+basket = (data.groupby(['Transaction', 'Item'])['Item']
+          .count().unstack().reset_index().fillna(0)
+          .set_index('Transaction'))
+
+# Convert item counts to boolean values (True if item was bought in the transaction, False otherwise)
+basket_sets = basket.applymap(lambda x: True if x >= 1 else False)
+
+# Perform Apriori algorithm for frequent itemset generation
+frequent_itemsets = apriori(basket_sets, min_support=0.001, use_colnames=True)
+
+# Generate association rules
+association_rules_df = association_rules(frequent_itemsets,num_itemsets=data.shape[0], metric="lift", min_threshold=0.5)
+
+# Convert frozensets to lists for better readability
+association_rules_df['antecedents'] = association_rules_df['antecedents'].apply(list)
+association_rules_df['consequents'] = association_rules_df['consequents'].apply(list)
+
+# Round support, confidence, and lift to three decimal places
+association_rules_df['support'] = association_rules_df['support'].round(3)
+association_rules_df['confidence'] = association_rules_df['confidence'].round(3)
+association_rules_df['lift'] = association_rules_df['lift'].round(3)
+
+# Filter rules where support and confidence are both >= 0.01
+filtered_rules_df = association_rules_df[(association_rules_df['support'] >= 0.001) & (association_rules_df['confidence'] >= 0.001)]
+
+# Filter rules where there is exactly one consequent
+filtered_rules_df = filtered_rules_df[filtered_rules_df['consequents'].apply(len) == 1]
+
+# Create a unique Rule ID for each rule in filtered_rules_df
+# filtered_rules_df['Rule_ID'] = range(1, len(filtered_rules_df) + 1)
+
+# See if this resolves the error
+# Create a unique Rule_ID for each rule in filtered_rules_df using .loc
+filtered_rules_df.loc[:, 'Rule_ID'] = range(1, len(filtered_rules_df) + 1)
+
+
+# Select only the desired columns
+selected_columns = ['Rule_ID', 'antecedents', 'consequents', 'support', 'confidence', 'lift']
+
+# Save the filtered association rules to a CSV file
+filtered_rules_df[selected_columns].to_csv('temp_association_rules.csv', index=False)
+
+# Remove the brackets and single quotes for easier processing in Tableau
+data2 = pd.read_csv('temp_association_rules.csv')
+
+# Remove square brackets from antecedents and consequents columns
+data2['antecedents'] = data2['antecedents'].str.strip("[]").str.replace("'", "")
+data2['consequents'] = data2['consequents'].str.strip("[]").str.replace("'", "")
+
+# Put a user-friendly rule description text in the file
+data2['RuleText'] = data2.apply(lambda row: f"Rule {row['Rule_ID']}: {''.join(row['antecedents'])} -> {''.join(row['consequents'])}", axis=1)
+
+# Write the updated DataFrame to a new CSV file
+data2.to_csv('association_rules_OUTPUT.csv', index=False)
+
+# Remove the temporary file
+os.remove('temp_association_rules.csv')
