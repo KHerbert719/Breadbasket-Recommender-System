@@ -8,7 +8,12 @@ The output of the model is saved as a CSV file: `association_rules_OUTPUT.csv`
 
 # Dataset Overview
 
-- ***File:** `BreadBasket_DMS.csv`
+- ***Files Included:**
+- `BreadBasket_DMS.csv`
+- 'BreadBasket_Association_Rules.ipynb'
+- '
+
+  
 - **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/heeraldedhia/breadbasket)
 - **Description:** Transactions from a UK-based bakery from 2016–2017.
 - **Key Columns:**
