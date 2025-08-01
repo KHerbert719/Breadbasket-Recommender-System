@@ -6,7 +6,7 @@ and generate a **recommender system**.
 
 The output of the model is saved as a CSV file: `association_rules_OUTPUT.csv`
 
-## 📂 Dataset Overview
+# Dataset Overview
 
 - ***File:** `BreadBasket_DMS.csv`
 - **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/heeraldedhia/breadbasket)
